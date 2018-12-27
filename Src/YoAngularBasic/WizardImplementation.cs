@@ -13,29 +13,27 @@ namespace YoAngularBasic
     public class WizardImplementation : IWizard 
     {
         private const string generatorName = "angular-basic";//https://github.com/MattJeanes/AngularBasic
-        //private const string generatorName = "aspnet";//https://github.com/OmniSharp/generator-aspnet
+        //gregt private const string generatorName = "aspnet";//https://github.com/OmniSharp/generator-aspnet
 
         public void RunStarted(object automationObject, Dictionary<string, string> replacementsDictionary, WizardRunKind runKind, object[] customParams)
         {
             try
             {
-                // initialisation
+                #region gregt extract to common
                 var regularProjectName = replacementsDictionary["$safeprojectname$"];
                 var solutionDirectory = replacementsDictionary["$solutiondirectory$"];
                 var solutionDirectoryInfo = new DirectoryInfo(solutionDirectory);
                 var tempDirectory = Path.GetTempPath();
+                #endregion
 
-                // generate ui
                 var userInputForm = new UserInputForm(solutionDirectory, tempDirectory, generatorName, regularProjectName);
                 userInputForm.ShowDialog();
 
-                // within a few milli-seconds the regular new project (in our case literally just an empty folder due to MinimalProjectTemplate.vstemplate having empty 'TemplateContent' node) is created
-
-                // run batch file that gathers user input & performs downloads 
+                #region gregt extract to common
                 GenerateYeomanProject(solutionDirectoryInfo.Parent.FullName);
-
                 // now that yeoman has done its thing we are at the only point in code where we can try to archive the regular project, safe in the knowledge that enough time has passed to gaurantee it was created successfully
                 ArchiveRegularProject(solutionDirectory, tempDirectory, solutionDirectoryInfo);
+                #endregion
             }
             catch (Exception ex)
             {
@@ -44,7 +42,7 @@ namespace YoAngularBasic
             }
         }
        
-        private void GenerateYeomanProject(string generationDirectory)
+        private void GenerateYeomanProject(string generationDirectory)//gregt extract to common
         {
             var assemblyLocation = Assembly.GetExecutingAssembly().Location;
             var assemblyDirectory = Path.GetDirectoryName(assemblyLocation);
@@ -57,7 +55,7 @@ namespace YoAngularBasic
             InvokeCommand(yoBatchFile, args);
         }
 
-        private static void ArchiveRegularProject(string solutionDirectory, string tempDirectory, DirectoryInfo solutionDirectoryInfo)
+        private static void ArchiveRegularProject(string solutionDirectory, string tempDirectory, DirectoryInfo solutionDirectoryInfo)//gregt extract to common
         {
             //gregt cater for directory not exists / already exists
 
@@ -65,7 +63,7 @@ namespace YoAngularBasic
             Directory.Move(solutionDirectory, archiveLocation);
         }
 
-        private void InvokeCommand(string batchFileToBeOpened, string args)
+        private void InvokeCommand(string batchFileToBeOpened, string args)//gregt extract to common
         {
             var start = new ProcessStartInfo()
             {

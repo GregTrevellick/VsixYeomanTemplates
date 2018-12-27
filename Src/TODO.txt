@@ -23,7 +23,9 @@ Paste public key into C:\_git\VsixYeomanTemplates\src\MinimalProjectTemplate\Min
 
 
 
-
+convert projects to .net std
+add "common" project (.net std)
+get 'cancel' button in dialog working
 get it working for OmniSharp/generator-aspnet aswell as matt's ang-bas ==> extract common code into separate project ?
 gregt's
 bug: open most recent csproj file

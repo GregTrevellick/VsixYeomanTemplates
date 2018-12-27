@@ -3,9 +3,9 @@
   <TemplateData>
     <!--<CreateNewFolder>false</CreateNewFolder>--><!--whether or not to create the top-level folder in doesn't already exist-->
     <DefaultName>None</DefaultName>
-    <Description>MyProjectTemplate2bb</Description>
+    <Description>ang bas MyProjectTemplate2bb</Description>
     <Icon>MinimalProjectTemplate.ico</Icon>
-    <Name>MyProjectTemplate2b</Name>
+    <Name>ang bas MyProjectTemplate2b</Name>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>Angular</ProjectSubType>
     <ProvideDefaultName>true</ProvideDefaultName>
