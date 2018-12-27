@@ -1,15 +1,10 @@
 https://docs.microsoft.com/en-us/visualstudio/extensibility/how-to-use-wizards-with-project-templates?view=vs-2017
 
-Paste key.snk into C:\_git\HelloWorldVsixProjectTemplateWizardYeoman\MyProjectWizard2\bin\Debug
-
+Paste key.snk into C:\_git\VsixYeomanTemplates\src\YoAngularBasic\bin\Debug
 CD C:\_git\VsixYeomanTemplates\src\YoAngularBasic\bin\Debug
-
 "C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\sn.exe" -p key.snk outfile.key.
-
 "C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\sn.exe" -t outfile.key.
-
 Make a note of public key token e.g. 96c2bcc37a49c16f
-
 Paste public key into C:\_git\VsixYeomanTemplates\src\MinimalProjectTemplate\MinimalProjectTemplate.vstemplate at line <Assembly>YoAngularBasic, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=c8911b993b41a682</Assembly>  
 
 
@@ -30,7 +25,6 @@ Paste public key into C:\_git\VsixYeomanTemplates\src\MinimalProjectTemplate\Min
 
 
 get it working for OmniSharp/generator-aspnet aswell as matt's ang-bas ==> extract common code into separate project ?
-in the pop-up, use the actual regular project name not 'temporary project'
 gregt's
 bug: open most recent csproj file
 add badges to VsixYeomanTemplates repo

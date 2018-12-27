@@ -20,12 +20,13 @@ namespace YoAngularBasic
             try
             {
                 // initialisation
+                var regularProjectName = replacementsDictionary["$safeprojectname$"];
                 var solutionDirectory = replacementsDictionary["$solutiondirectory$"];
                 var solutionDirectoryInfo = new DirectoryInfo(solutionDirectory);
                 var tempDirectory = Path.GetTempPath();
 
                 // generate ui
-                var userInputForm = new UserInputForm(solutionDirectory, tempDirectory, generatorName);
+                var userInputForm = new UserInputForm(solutionDirectory, tempDirectory, generatorName, regularProjectName);
                 userInputForm.ShowDialog();
 
                 // within a few milli-seconds the regular new project (in our case literally just an empty folder due to MinimalProjectTemplate.vstemplate having empty 'TemplateContent' node) is created
