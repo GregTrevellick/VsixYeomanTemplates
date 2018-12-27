@@ -10,7 +10,7 @@ CD C:\_git\VsixYeomanTemplates\src\YoAngularBasic\bin\Debug
 
 Make a note of public key token e.g. 96c2bcc37a49c16f
 
-Paste public key into C:\_git\HelloWorldVsixProjectTemplateWizardYeoman\MyProjectTemplate\MyProjectTemplate.vstemplate at line <Assembly>MyProjectWizard2, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=c8911b993b41a682</Assembly>  
+Paste public key into C:\_git\VsixYeomanTemplates\src\MinimalProjectTemplate\MinimalProjectTemplate.vstemplate at line <Assembly>YoAngularBasic, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=c8911b993b41a682</Assembly>  
 
 
 
@@ -29,7 +29,6 @@ Paste public key into C:\_git\HelloWorldVsixProjectTemplateWizardYeoman\MyProjec
 
 
 
-//rename MyProjectTemplate project to MinimalProjectTemplate
 get it working for OmniSharp/generator-aspnet aswell as matt's ang-bas ==> extract common code into separate project ?
 in the pop-up, use the actual regular project name not 'temporary project'
 gregt's
