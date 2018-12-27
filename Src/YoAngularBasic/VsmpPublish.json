@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json.schemastore.org/vsix-publish",
+  "assetFiles": [ //images used in VsmpReadMe.md
+    {
+      "pathOnDisk": "..\\vsixTemplatePackSideWaffle\\Resources\\screen0.png",
+      "targetPath": "screen0.png"
+    },
+    {
+      "pathOnDisk": "..\\vsixTemplatePackSideWaffle\\Resources\\screen1.png",
+      "targetPath": "screen1.png"
+    }
+  ],
+  "categories": [   
+    "coding",
+    "modeling",
+    "scaffolding"
+  ],
+  "identity": {
+    "internalName": "CleanArchitecture"
+  },
+  "overview": "..\\vsixArtefacts\\VsmpReadMe.md", //vsmp page content
+  "priceCategory": "free",
+  "publisher": "GregTrevellick",
+  "private": false,
+  "qna": true,
+  "repo": "https://github.com/GregTrevellick/CleanArchitecture"
+}
