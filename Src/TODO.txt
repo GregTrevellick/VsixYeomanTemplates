@@ -29,10 +29,12 @@ Paste public key into C:\_git\HelloWorldVsixProjectTemplateWizardYeoman\MyProjec
 
 
 
-create new github repo ==> add badges
-create tags in existing repo ==> reset master back to prior to yeoman ==> publish that as an example vsix
 rename MyProjectTemplate project to MinimalProjectTemplate
 get it working for OmniSharp/generator-aspnet aswell as matt's ang-bas ==> extract common code into separate project ?
 in the pop-up, use the actual regular project name not 'temporary project'
 gregt's
 bug: open most recent csproj file
+add badges to VsixYeomanTemplates repo
+
+
+publish HelloWorldVsixProjectTemplateWizard example vsix
