@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <!--<CreateNewFolder>false</CreateNewFolder>--><!--whether or not to create the top-level folder in doesn't already exist-->
+    <DefaultName>None</DefaultName>
+    <Description>MyProjectTemplate2bb</Description>
+    <Icon>MyProjectTemplate.ico</Icon>
+    <Name>MyProjectTemplate2b</Name>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>Angular</ProjectSubType>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>878fe27b-3c68-46a7-8fc1-5e834a477d65</TemplateID>
+    <EnableLocationBrowseButton>false</EnableLocationBrowseButton>
+    <LocationField>Disabled</LocationField>
+    
+    <!--<RequiredFrameworkVersion>2.1</RequiredFrameworkVersion>-->
+    <!--value must be integer, and this is valid, but results in user being prompted for framework version nbr-->
+    <!--<RequiredFrameworkVersion>netcoreapp2.1</RequiredFrameworkVersion>-->
+    <!--value must be integer, and this is INvalid, but avoids user being prompted for framework version nbr-->
+    <!--taken from 'netcoreapp2.1' in matt's csproj-->
+    <!--in fact, omitting 'RequiredFrameworkVersion' altogether avoids user being prompted for framework version nbr-->
+
+
+
+
+
+
+
+
+    <!--<SpecialTemplateType>EmptyShared</SpecialTemplateType>-->
+    <!--<PromptForSaveOnCreation>false</PromptForSaveOnCreation>-->
+    <!--<LocationFieldMRUPrefix>C:|Temp</LocationFieldMRUPrefix>-->
+
+
+  </TemplateData>
+  <TemplateContent>
+    <!--<Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Class1.cs</ProjectItem>
+    </Project>-->
+  </TemplateContent>
+  <WizardExtension>  
+    <Assembly>YoAngularBasic, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=6a6701d726c2b58c</Assembly>  
+    <FullClassName>YoAngularBasic.WizardImplementation</FullClassName>  
+  </WizardExtension>  
+</VSTemplate>
