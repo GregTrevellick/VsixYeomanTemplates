@@ -10,10 +10,10 @@ using Process = System.Diagnostics.Process;
 
 namespace YoAngularBasic
 {
-    public class WizardImplementation : IWizard //gregt rename class ?
+    public class WizardImplementation : IWizard 
     {
-        //private const string generatorName = "angular-basic";//https://github.com/MattJeanes/AngularBasic
-        private const string generatorName = "aspnet";//https://github.com/OmniSharp/generator-aspnet
+        private const string generatorName = "angular-basic";//https://github.com/MattJeanes/AngularBasic
+        //private const string generatorName = "aspnet";//https://github.com/OmniSharp/generator-aspnet
 
         public void RunStarted(object automationObject, Dictionary<string, string> replacementsDictionary, WizardRunKind runKind, object[] customParams)
         {

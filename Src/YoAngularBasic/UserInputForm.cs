@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace YoAngularBasic
 {
-    public partial class UserInputForm : Form //gregt rename class ?
+    public partial class UserInputForm : Form 
     {
         private Label label1;
         private Button btnOk;
