@@ -2,8 +2,15 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
         <Identity Id="C8C94E0A-55BA-40D5-8033-4AA25ADE8D4F" Version="1.0" Language="en-US" Publisher="Greg Trevellick" />
-        <DisplayName>MyProjectWizard2</DisplayName>
-        <Description xml:space="preserve">Empty VSIX Project.2</Description>
+        <DisplayName>Ang basic MyProjectWizard2</DisplayName>
+        <Description xml:space="preserve">A project template for ang basic.</Description>
+        <MoreInfo>https://github.com/GregTrevellick/VsixYeomanTemplate</MoreInfo>
+        <License>LICENSE.txt</License>
+        <GettingStartedGuide>https://github.com/MattJeanes/AngularBasic</GettingStartedGuide>
+        <ReleaseNotes>https://github.com/GregTrevellick/VsixYeomanTemplate/blob/master/CHANGELOG.md</ReleaseNotes>
+        <Icon>Resources\VsixExtensionPreview_90x90.png</Icon>
+        <PreviewImage>Resources\VsixExtensionPreview_175x175.png</PreviewImage>
+        <Tags>gregt</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />
