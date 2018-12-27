@@ -1,5 +1,9 @@
 @echo off
 
+rem gregt rename arg1 => YoApp 
+rem gregt rename arg2 => regular project directory
+rem gregt rename arg3 => generatorYoApp
+
 set arg1=%1
 set arg2=%2
 set "arg3=generator-%arg1%"
