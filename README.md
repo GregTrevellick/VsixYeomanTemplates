@@ -1,1 +1,3 @@
-# HelloWorldVsixProjectTemplateWizard
+# VsixYeomanTemplates
+
+gregt
