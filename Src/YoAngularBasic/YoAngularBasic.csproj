@@ -81,6 +81,9 @@
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
+    <None Include="VsmpPublish.json" />
+    <None Include="VsmpPublish.ps" />
+    <None Include="VsmpReadMe.md" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MinimalProjectTemplate\MinimalProjectTemplate.csproj">
