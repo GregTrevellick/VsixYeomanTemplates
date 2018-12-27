@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProjectTemplate", "MyProjectTemplate\MyProjectTemplate.csproj", "{F55BA85E-13BD-48E9-9178-C8F57DD4E47B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalProjectTemplate", "MinimalProjectTemplate\MinimalProjectTemplate.csproj", "{F55BA85E-13BD-48E9-9178-C8F57DD4E47B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoAngularBasic", "YoAngularBasic\YoAngularBasic.csproj", "{FF32922C-BB59-47C4-9094-245AFE628CD6}"
 EndProject

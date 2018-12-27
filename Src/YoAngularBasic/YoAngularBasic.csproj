@@ -70,9 +70,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyProjectTemplate\MyProjectTemplate.csproj">
+    <ProjectReference Include="..\MinimalProjectTemplate\MinimalProjectTemplate.csproj">
       <Project>{F55BA85E-13BD-48E9-9178-C8F57DD4E47B}</Project>
-      <Name>MyProjectTemplate</Name>
+      <Name>MinimalProjectTemplate</Name>
       <VSIXSubPath>ProjectTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>

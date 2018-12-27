@@ -4,7 +4,7 @@
     <!--<CreateNewFolder>false</CreateNewFolder>--><!--whether or not to create the top-level folder in doesn't already exist-->
     <DefaultName>None</DefaultName>
     <Description>MyProjectTemplate2bb</Description>
-    <Icon>MyProjectTemplate.ico</Icon>
+    <Icon>MinimalProjectTemplate.ico</Icon>
     <Name>MyProjectTemplate2b</Name>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>Angular</ProjectSubType>
@@ -28,20 +28,19 @@
 
 
 
-    <!--<SpecialTemplateType>EmptyShared</SpecialTemplateType>-->
-    <!--<PromptForSaveOnCreation>false</PromptForSaveOnCreation>-->
-    <!--<LocationFieldMRUPrefix>C:|Temp</LocationFieldMRUPrefix>-->
 
 
   </TemplateData>
   <TemplateContent>
-    <!--<Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+    <!--
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">Class1.cs</ProjectItem>
-    </Project>-->
+    </Project>
+    -->
   </TemplateContent>
   <WizardExtension>  
-    <Assembly>YoAngularBasic, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=6a6701d726c2b58c</Assembly>  
+    <Assembly>YoAngularBasic, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=96c2bcc37a49c16f</Assembly>  
     <FullClassName>YoAngularBasic.WizardImplementation</FullClassName>  
   </WizardExtension>  
 </VSTemplate>

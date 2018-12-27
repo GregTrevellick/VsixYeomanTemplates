@@ -28,7 +28,7 @@ namespace YoAngularBasic
                 var userInputForm = new UserInputForm(solutionDirectory, tempDirectory, generatorName);
                 userInputForm.ShowDialog();
 
-                // within a few milli-seconds the regular new project (in our case literally just an empty folder due to MyProjectTemplate.vstemplate having empty 'TemplateContent' node) is created
+                // within a few milli-seconds the regular new project (in our case literally just an empty folder due to MinimalProjectTemplate.vstemplate having empty 'TemplateContent' node) is created
 
                 // run batch file that gathers user input & performs downloads 
                 GenerateYeomanProject(solutionDirectoryInfo.Parent.FullName);
