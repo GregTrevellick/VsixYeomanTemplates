@@ -22,9 +22,15 @@ namespace YoAngularBasic
                 var dto = yeomanProcessor.Initialise(replacementsDictionary);
                 var userInputForm = new UserInputForm(dto.SolutionDirectory, dto.TempDirectory, generatorName, dto.RegularProjectName);
 
-                userInputForm.ShowDialog();
-
-                yeomanProcessor.Generate();
+                var dialogResult = userInputForm.ShowDialog();
+                if (dialogResult == DialogResult.OK)
+                {
+                    yeomanProcessor.Generate();
+                }
+                else
+                {
+                    //gregt archive the regular project
+                }
             }
             catch (Exception ex)
             {

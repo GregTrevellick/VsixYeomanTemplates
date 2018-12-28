@@ -21,8 +21,6 @@ dotnet migrate-2017 migrate "C:\_git\AngularBasic\vsixTemplatePackSideWaffle\vsi
 *********
 * TODOs *
 *********
-convert projects to .net std
-get 'cancel' button in dialog working
 get it working for OmniSharp/generator-aspnet aswell as matt's ang-bas ==> generatorName = "aspnet";//https://github.com/OmniSharp/generator-aspnet
 rename 'MinimalProjectTemplate' to 'AngularBasicMinimalTemplate'
 rename 'YoAngularBasic' to 'AngularBasicVsix'

@@ -35,6 +35,7 @@ namespace YoAngularBasic
                 $"      {tempDirectory}{Environment.NewLine}" +
                 $"{Environment.NewLine}Click OK to proceed.";//gregt extract to common
 
+            btnOk.DialogResult = DialogResult.OK;
             btnOk.Location = new System.Drawing.Point(464, 202);
             btnOk.Name = "btnOk";
             btnOk.Size = new System.Drawing.Size(75, 23);
@@ -43,6 +44,7 @@ namespace YoAngularBasic
             btnOk.UseVisualStyleBackColor = true;
             btnOk.Click += new System.EventHandler(this.btnOk_Click);
 
+            btnCancel.DialogResult = DialogResult.Cancel;
             btnCancel.Location = new System.Drawing.Point(559, 202);
             btnCancel.Name = "btnCancel";
             btnCancel.Size = new System.Drawing.Size(75, 23);
@@ -51,7 +53,7 @@ namespace YoAngularBasic
             btnCancel.UseVisualStyleBackColor = true;
             btnCancel.Click += new EventHandler(this.btnCancel_Click);
 
-            ClientSize = new System.Drawing.Size(646, 237);
+            ClientSize = new System.Drawing.Size(646, 237);//gregt auto size this ?
             Controls.Add(this.btnCancel);
             Controls.Add(this.btnOk);
             Controls.Add(this.label1);
