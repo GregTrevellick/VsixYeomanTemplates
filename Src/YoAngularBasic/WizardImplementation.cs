@@ -1,39 +1,30 @@
+using Common;
 using EnvDTE;
 using Microsoft.VisualStudio.TemplateWizard;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Reflection;
 using System.Windows.Forms;
-using Process = System.Diagnostics.Process;
 
 namespace YoAngularBasic
 {
     public class WizardImplementation : IWizard 
     {
-        private const string generatorName = "angular-basic";//https://github.com/MattJeanes/AngularBasic
-        //gregt private const string generatorName = "aspnet";//https://github.com/OmniSharp/generator-aspnet
+        /// <summary>
+        /// https://github.com/MattJeanes/AngularBasic
+        /// </summary>
+        private const string generatorName = "angular-basic";
 
         public void RunStarted(object automationObject, Dictionary<string, string> replacementsDictionary, WizardRunKind runKind, object[] customParams)
         {
             try
             {
-                #region gregt extract to common
-                var regularProjectName = replacementsDictionary["$safeprojectname$"];
-                var solutionDirectory = replacementsDictionary["$solutiondirectory$"];
-                var solutionDirectoryInfo = new DirectoryInfo(solutionDirectory);
-                var tempDirectory = Path.GetTempPath();
-                #endregion
+                var yeomanProcessor = new YeomanProcessor(generatorName);
+                var dto = yeomanProcessor.Initialise(replacementsDictionary);
+                var userInputForm = new UserInputForm(dto.SolutionDirectory, dto.TempDirectory, generatorName, dto.RegularProjectName);
 
-                var userInputForm = new UserInputForm(solutionDirectory, tempDirectory, generatorName, regularProjectName);
                 userInputForm.ShowDialog();
 
-                #region gregt extract to common
-                GenerateYeomanProject(solutionDirectoryInfo.Parent.FullName);
-                // now that yeoman has done its thing we are at the only point in code where we can try to archive the regular project, safe in the knowledge that enough time has passed to gaurantee it was created successfully
-                ArchiveRegularProject(solutionDirectory, tempDirectory, solutionDirectoryInfo);
-                #endregion
+                yeomanProcessor.Generate();
             }
             catch (Exception ex)
             {
@@ -42,49 +33,6 @@ namespace YoAngularBasic
             }
         }
        
-        private void GenerateYeomanProject(string generationDirectory)//gregt extract to common
-        {
-            var assemblyLocation = Assembly.GetExecutingAssembly().Location;
-            var assemblyDirectory = Path.GetDirectoryName(assemblyLocation);
-
-            var yoBatchFile = $@"{assemblyDirectory}\yo.bat";
-            var args = $"{generatorName} {generationDirectory}";
-
-            //gregt cater for generationDirectory already exists 
-
-            InvokeCommand(yoBatchFile, args);
-        }
-
-        private static void ArchiveRegularProject(string solutionDirectory, string tempDirectory, DirectoryInfo solutionDirectoryInfo)//gregt extract to common
-        {
-            //gregt cater for directory not exists / already exists
-
-            var archiveLocation = $"{tempDirectory}\\{solutionDirectoryInfo.Name}";
-            Directory.Move(solutionDirectory, archiveLocation);
-        }
-
-        private void InvokeCommand(string batchFileToBeOpened, string args)//gregt extract to common
-        {
-            var start = new ProcessStartInfo()
-            {
-                Arguments = args,
-                CreateNoWindow = false,
-                FileName = batchFileToBeOpened,
-                UseShellExecute = false,
-                WindowStyle = ProcessWindowStyle.Normal,
-            };
-
-            try
-            {
-                using (Process.Start(start)) { }
-            }
-            catch (Exception ex)
-            {
-                //gregt do some vsix logging here
-                throw (ex);
-            }
-        }
-
         public void BeforeOpeningFile(ProjectItem projectItem)
         {
             // This method is called before opening any item that has the OpenInEditor attribute.  
