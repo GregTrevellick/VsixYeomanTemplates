@@ -10,20 +10,10 @@ namespace AngularBasicVsix
         public UserInputForm(string solutionDirectory, string tempDirectory, string generatorName, string regularProjectName)
         {
             SuspendLayout();
-
             AddFormControls(solutionDirectory, tempDirectory, generatorName, regularProjectName);
-
             DefineFormSettings();
-
-            PerformLayout();
-        }
-
-        private void DefineFormSettings()
-        {
-            AutoSize = true;
-            ////////////////////////////////////////////////////////ClientSize = new Size(646, 237);
-            Name = "UserInputForm";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         private void AddFormControls(string solutionDirectory, string tempDirectory, string generatorName, string regularProjectName)
@@ -55,7 +45,6 @@ namespace AngularBasicVsix
                 AutoSize = true,
                 Location = new Point(25, 22),//gregt auto-position ?
                 Name = "label1",
-                ////////////////////////////////////////////////////////////////////////////////////////////////label1.Size = new Size(35, 13);
                 Text = DialogHelper.GetLabelText(solutionDirectory, tempDirectory, generatorName, regularProjectName)
             };
 
@@ -77,6 +66,22 @@ namespace AngularBasicVsix
         private void btnOkCancel_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        /// <summary>
+        /// AutoSizeMode.GrowAndShrink
+        ///  The control grows or shrinks to fit its contents.
+        ///  The control cannot be resized manually.
+        /// AutoSizeMode.GrowOnly
+        ///  The control grows as much as necessary to fit its contents but does not shrink smaller than the value of its System.Windows.Forms.Control.Size property.
+        ///  The form can be resized, but cannot be made so small that any of its contained controls are hidden.
+        /// </summary>
+        private void DefineFormSettings()
+        {
+            AutoSize = true;
+            AutoSizeMode = AutoSizeMode.GrowOnly;
+            ClientSize = new Size(650, 250);///////////////////////////////////////////////////////////////////////////////(646, 237);
+            Name = "UserInputForm";
         }
     }
 }
