@@ -9,7 +9,7 @@ namespace Common
 {
     public class YoProcessor
     {
-        private DirectoryInfo solutionDirectoryInfo;
+        private DirectoryInfo _solutionDirectoryInfo;
         private DirectorySystemDto _directorySystemDto;
         private FileSystemDto _fileSystemDto;
         private string _generatorName;
@@ -23,7 +23,7 @@ namespace Common
         {
             var regularProjectName = replacementsDictionary["$safeprojectname$"];
             var solutionDirectory = replacementsDictionary["$solutiondirectory$"];
-            solutionDirectoryInfo = new DirectoryInfo(solutionDirectory);
+            _solutionDirectoryInfo = new DirectoryInfo(solutionDirectory);
             var tempDirectory = Path.GetTempPath();
 
             _fileSystemDto = new FileSystemDto
@@ -36,7 +36,7 @@ namespace Common
             _directorySystemDto = new DirectorySystemDto
             {
                 FileSystemDtoBase = _fileSystemDto,
-                SolutionDirectoryInfo = solutionDirectoryInfo
+                SolutionDirectoryInfo = _solutionDirectoryInfo
             };
 
             return _fileSystemDto;
@@ -58,13 +58,26 @@ namespace Common
             // Matt's code already caters for the ang-bas folder already existing - we don't need to check anything here
             var yoBatchFile = $@"{assemblyDirectory}\yo.bat";
             var args = $"{_generatorName} {generationDirectory}";
+            CreateYoProjectOnDisc(yoBatchFile, args);
 
-            InvokeCommand(yoBatchFile, args);
+            OpenNewlyCreatedYoProject();
+        }
+
+        private void OpenNewlyCreatedYoProject()
+        {
+            //gregt
+            //build "array" of.csproj files in sub-folders
+            //sort by newest date
+            //Open the last .csproj which is the.csproj file we just created
+
+            //ideally we would open the newly generated project in the existing instance of Visual Studio, but the closest I got to this was 
+            //"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe" / edit C:\temp\j2\j2.csproj 
+            //which opens the.csproj file in existing VS instance(not the experimental one), but as a text file not as a project file
         }
 
         public void ArchiveRegularProject(string solutionDirectory, string tempDirectory)
         {
-            ArchiveRegularProject(solutionDirectory, tempDirectory, solutionDirectoryInfo);
+            ArchiveRegularProject(solutionDirectory, tempDirectory, _solutionDirectoryInfo);
         }
 
         private void ArchiveRegularProject(string solutionDirectory, string tempDirectory, DirectoryInfo solutionDirectoryInfo)
@@ -95,7 +108,7 @@ namespace Common
             return $"{DateTime.UtcNow.Year}{DateTime.UtcNow.Month}{DateTime.UtcNow.Day}_{DateTime.UtcNow.Hour}{DateTime.UtcNow.Minute}{DateTime.UtcNow.Second}_{DateTime.UtcNow.Millisecond}";
         }
 
-        private void InvokeCommand(string batchFileToBeOpened, string args)
+        private void CreateYoProjectOnDisc(string batchFileToBeOpened, string args)
         {
             var start = new ProcessStartInfo()
             {
