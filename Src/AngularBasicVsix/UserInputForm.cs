@@ -21,7 +21,7 @@ namespace AngularBasicVsix
             var btnCancel = new Button
             {
                 DialogResult = DialogResult.Cancel,
-                Location = new Point(559, 202),//GREGT auto-position ?
+                Location = new Point(559, 202),//gregt auto-position ?
                 Name = "btnCancel",
                 Size = CommonButtonSize(),
                 TabIndex = 1,
@@ -32,7 +32,7 @@ namespace AngularBasicVsix
             var btnOk = new Button
             {
                 DialogResult = DialogResult.OK,
-                Location = new Point(464, 202),//GREGT auto-position ?
+                Location = new Point(464, 202),//gregt auto-position ?
                 Name = "btnOk",
                 Size = CommonButtonSize(),
                 TabIndex = 0,
@@ -43,7 +43,7 @@ namespace AngularBasicVsix
             var label1 = new Label
             {
                 AutoSize = true,
-                Location = new Point(25, 22),//GREGT auto-position ?
+                Location = new Point(25, 22),//gregt auto-position ?
                 Name = "label1",
                 Text = DialogHelper.GetLabelText(solutionDirectory, tempDirectory, generatorName, regularProjectName)
             };
