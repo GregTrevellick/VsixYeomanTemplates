@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="C8C94E0A-55BA-40D5-8033-4AA25ADE8D4F" Version="1.0.0" Language="en-US" Publisher="Greg Trevellick" />
+    <Identity Id="C8C94E0A-55BA-40D5-8033-4AA25ADE8D4F" Version="1.0.1" Language="en-US" Publisher="Greg Trevellick" />
     <DisplayName>Angular Basic Project Template</DisplayName>
     <Description xml:space="preserve">A basic Angular TypeScript application for VS2017/VSCode, using AspNet Core, WebPack, Gulp, Sass and Yarn (optional).</Description>
     <MoreInfo>https://github.com/GregTrevellick/VsixYeomanTemplate</MoreInfo>
