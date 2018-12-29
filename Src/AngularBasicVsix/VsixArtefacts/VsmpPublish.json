@@ -8,6 +8,10 @@
     {
       "pathOnDisk": "..\\AngularBasicVsix\\Resources\\screen1.png",
       "targetPath": "screen1.png"
+    },
+    {
+      "pathOnDisk": "..\\AngularBasicVsix\\Resources\\screen2.png",
+      "targetPath": "screen2.png"
     }
   ],
   "categories": [   
@@ -21,7 +25,7 @@
   "overview": "..\\VsmpReadMe.md", //vsmp page content
   "priceCategory": "free",
   "publisher": "GregTrevellick",
-  "private": false,
+  "private": true,
   "qna": true,
   "repo": "https://github.com/GregTrevellick/VsixYeomanTemplates"
 }
