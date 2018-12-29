@@ -3,3 +3,17 @@
 cd C:\_git\OpenInApp.Launcher\src\packages\Microsoft.VSSDK.BuildTools.15.8.3252\tools\vssdk\bin
 
 .\VsixPublisher.exe publish  -payload "..\..\..\..\..\..\..\VsixYeomanTemplates\src\AngularBasicVsix\bin\debug\AngularBasicVsix.vsix"  -publishManifest "..\..\..\..\..\..\..\VsixYeomanTemplates\src\AngularBasicVsix\VsixArtefacts\VsmpPublish.json"  -personalAccessToken "vsmp_pat"
+
+rem BUG: VSSDK: error VsixPub0029 : An error occurred while communicating with the marketplace: categories: Your extension type does not match the VSIX. It should be configured as a Template type.
+rem FIX: the category determines the type templates/controls/tools
+::the template categories are (must be lower case in json file)
+::	AJAX 
+::	ASP.NET
+::	Visual Studio Extensions
+::	Other
+::	several more
+::the controls categories are
+::	see manual upload page
+::the tools categories are
+::	see manual upload page
+ 

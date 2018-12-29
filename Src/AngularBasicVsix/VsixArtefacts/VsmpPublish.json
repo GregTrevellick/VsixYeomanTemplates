@@ -15,9 +15,8 @@
     }
   ],
   "categories": [   
-    "coding",
-    "modeling",
-    "scaffolding"
+    "ajax",
+    "other"
   ],
   "identity": {
     "internalName": "AngularBasicVsix"
