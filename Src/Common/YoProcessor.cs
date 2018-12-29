@@ -57,14 +57,14 @@ namespace Common
             var yoBatchFile = $@"{assemblyDirectory}\yo.bat";
             var args = $"{_generatorName} {generationDirectory}";
 
-            //gregt cater for generationDirectory already exists 
+            //GREGT cater for generationDirectory already exists 
 
             InvokeCommand(yoBatchFile, args);
         }
 
-        private static void ArchiveRegularProject(string solutionDirectory, string tempDirectory, DirectoryInfo solutionDirectoryInfo)
+        private void ArchiveRegularProject(string solutionDirectory, string tempDirectory, DirectoryInfo solutionDirectoryInfo)
         {
-            //gregt cater for directory not exists / already exists
+            //GREGT cater for directory not exists / already exists
 
             var archiveLocation = $"{tempDirectory}\\{solutionDirectoryInfo.Name}";
             Directory.Move(solutionDirectory, archiveLocation);
