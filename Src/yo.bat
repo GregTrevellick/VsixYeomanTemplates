@@ -1,20 +1,16 @@
 @echo off
 
-rem gregt rename arg1 => YoApp 
-rem gregt rename arg2 => regular project directory
-rem gregt rename arg3 => generatorYoApp
+set arg1YoApp=%1
+set arg2RegularProjDir=%2
+set "arg3GenYoApp=generator-%arg1YoApp%"
 
-set arg1=%1
-set arg2=%2
-set "arg3=generator-%arg1%"
-
-cd %arg2%
+cd %arg2RegularProjDir%
 
 setlocal enableDelayedExpansion
 
-call npm install -g yo %arg3%
+call npm install -g yo %arg3GenYoApp%
 
-call yo %arg1%
+call yo %arg1YoApp%
 
 ::build "array" of .csproj files in sub-folders
 set folderCnt=0

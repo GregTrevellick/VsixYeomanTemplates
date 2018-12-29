@@ -34,7 +34,7 @@ namespace AngularBasicVsix
             }
             catch (Exception ex)
             {
-                //gregt do some vsix logging here
+                // No need to perform logging here - any exceptions are displayed in UI to user
                 MessageBox.Show(ex.ToString());
             }
         }
