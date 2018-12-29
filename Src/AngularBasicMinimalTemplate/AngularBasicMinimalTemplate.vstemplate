@@ -9,7 +9,7 @@
     <ProjectSubType>Angular</ProjectSubType>
     <ProvideDefaultName>true</ProvideDefaultName>
     <SortOrder>1000</SortOrder>
-    <TemplateID>878fe27b-3c68-46a7-8fc1-5e834a477d65</TemplateID>
+    <TemplateID>32A69FEB-1F72-474D-9BB7-D3609CB30C98</TemplateID>
     <EnableLocationBrowseButton>false</EnableLocationBrowseButton>
     <LocationField>Disabled</LocationField>
     <!--Omitting 'RequiredFrameworkVersion' avoids user being prompted for framework version nbr-->
