@@ -3,7 +3,7 @@
   <Metadata>
     <Identity Id="C8C94E0A-55BA-40D5-8033-4AA25ADE8D4F" Version="1.0.1" Language="en-US" Publisher="Greg Trevellick" />
     <DisplayName>Angular Basic Project Template</DisplayName>
-    <Description xml:space="preserve">A basic Angular TypeScript application for VS2017/VSCode, using AspNet Core, WebPack, Gulp, Sass and Yarn (optional).</Description>
+    <Description xml:space="preserve">A basic Angular.io / TypeScript web application project template for Visual Studio IDE (and Visual Studio Code too), using AspNet Core (C#), WebPack, Gulp, Sass and Yarn (optional).</Description>
     <MoreInfo>https://github.com/GregTrevellick/VsixYeomanTemplate</MoreInfo>
     <License>LICENSE.txt</License>
     <GettingStartedGuide>https://github.com/MattJeanes/AngularBasic</GettingStartedGuide>

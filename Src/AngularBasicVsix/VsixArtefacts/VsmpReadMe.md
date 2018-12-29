@@ -1,8 +1,8 @@
 [GitHubRepoPullRequestsURL]: https://github.com/GregTrevellick/VsixYeomanTemplates/pulls
 
-A basic angular typeScript web application project template for Visual Studio IDE (and Visual Studio Code too), using AspNet Core, WebPack, Gulp, Sass and Yarn (optional).
+A basic Angular.io / TypeScript web application project template for Visual Studio IDE (and Visual Studio Code too), using AspNet Core (C#), WebPack, Gulp, Sass and Yarn (optional).
 
->##### Based on Matt Jeanes' [Angular Basic](https://github.com/MattJeanes/AngularBasic) propject.
+>##### Based on Matt Jeanes' [Angular Basic](https://github.com/MattJeanes/AngularBasic) project.
 
 The project is scaffolded out using Yeoman, from within Visual Studio.
 
@@ -18,4 +18,4 @@ If you like this **free** extension please take just a few seconds to give it a 
 
 Contributions welcome [here][GitHubRepoPullRequestsURL].
 
-See the [change log](CHANGELOG.md) for release history.
+See the [change log](https://github.com/GregTrevellick/VsixYeomanTemplates/blob/master/CHANGELOG.md) for release history.
