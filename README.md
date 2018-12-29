@@ -47,7 +47,7 @@
 
 <!--BadgesEND-->
 
-A series of Visual Studio IDE extensions for project templates that are scaffolded out using Yeoman.
+A code repo for a series of Visual Studio IDE extensions for project templates that are scaffolded out using Yeoman.
 
 ## Give a Star! :star:
 If you like or are using this project to learn or start your solution, please give it a star. Thanks!
@@ -55,6 +55,7 @@ If you like or are using this project to learn or start your solution, please gi
 ## Credits
 
 [Matt Jeanes](https://github.com/MattJeanes/AngularBasic)
+
 [OmniSharp Team](https://github.com/OmniSharp/generator-aspnet)
 
 ## License
