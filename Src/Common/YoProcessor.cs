@@ -55,10 +55,15 @@ namespace Common
             var assemblyLocation = Assembly.GetExecutingAssembly().Location;
             var assemblyDirectory = Path.GetDirectoryName(assemblyLocation);
 
+            //gregt
+            //if (Directory.Exists(generationDirectory))
+            //{
+            //    var dateTime = GetUniqueDateTime();
+            //    generationDirectory = GetUniqueLocation(generationDirectory);
+            //}
+
             var yoBatchFile = $@"{assemblyDirectory}\yo.bat";
             var args = $"{_generatorName} {generationDirectory}";
-
-            //GREGT cater for generationDirectory already exists 
 
             InvokeCommand(yoBatchFile, args);
         }
@@ -70,16 +75,30 @@ namespace Common
 
         private void ArchiveRegularProject(string solutionDirectory, string tempDirectory, DirectoryInfo solutionDirectoryInfo)
         {
-            var dateTime = $"{DateTime.UtcNow.Year}{DateTime.UtcNow.Month}{DateTime.UtcNow.Day}_{DateTime.UtcNow.Hour}{DateTime.UtcNow.Minute}{DateTime.UtcNow.Second}_{DateTime.UtcNow.Millisecond}";
-            var archiveLocation = $"{tempDirectory}\\{solutionDirectoryInfo.Name}_{dateTime}";
+            var archiveLocation = GetArchiveLocation(tempDirectory, solutionDirectoryInfo);
+            Directory.Move(solutionDirectory, archiveLocation);
+        }
 
+        private string GetArchiveLocation(string tempDirectory, DirectoryInfo solutionDirectoryInfo)
+        {
+            var dateTime = GetUniqueDateTime();
+            var archiveLocation = $"{tempDirectory}\\{solutionDirectoryInfo.Name}_{dateTime}";
             if (Directory.Exists(archiveLocation))
             {
-                var random = new Random();
-                archiveLocation = $"{archiveLocation}_{random.Next(1, 999999)}";
+                archiveLocation = GetUniqueLocation(archiveLocation);
             }
+            return archiveLocation;
+        }
 
-            Directory.Move(solutionDirectory, archiveLocation);
+        private string GetUniqueLocation(string location)
+        {
+            var random = new Random();
+            return $"{location}_{random.Next(1, 999999)}";
+        }
+
+        private string GetUniqueDateTime()
+        {
+            return $"{DateTime.UtcNow.Year}{DateTime.UtcNow.Month}{DateTime.UtcNow.Day}_{DateTime.UtcNow.Hour}{DateTime.UtcNow.Minute}{DateTime.UtcNow.Second}_{DateTime.UtcNow.Millisecond}";
         }
 
         private void InvokeCommand(string batchFileToBeOpened, string args)
