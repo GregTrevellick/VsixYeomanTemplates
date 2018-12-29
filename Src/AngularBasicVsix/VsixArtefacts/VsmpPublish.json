@@ -15,9 +15,8 @@
     }
   ],
   "categories": [   
-    "ajax",
-    "other"
-  ],
+    "ajax"
+   ],
   "identity": {
     "internalName": "AngularBasicVsix"
   },
