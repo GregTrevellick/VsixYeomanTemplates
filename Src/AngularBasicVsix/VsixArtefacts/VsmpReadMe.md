@@ -1,18 +1,10 @@
-[GitHubRepoPullRequestsURL]: https://github.com/GregTrevellick/AngularBasic/pulls
+[GitHubRepoPullRequestsURL]: https://github.com/GregTrevellick/VsixYeomanTemplates/pulls
 
-A solution from mattj. 
+A basic angular typeScript web application project template for Visual Studio IDE (and Visual Studio Code too), using AspNet Core, WebPack, Gulp, Sass and Yarn (optional).
 
-Basic Angular TypeScript app for VS2017/VSCode, uses aspnet core, webpack, gulp, sass and yarn (optional). 
+>##### Based on Matt Jeanes' [Angular Basic](https://github.com/MattJeanes/AngularBasic) propject.
 
->##### Based on Matt Jeanes' [Clean Architecture](https://github.com/MattJeanes/AngularBasic).
-
-- [Overview](https://github.com/ardalis/AngularBasic#AngularBasic)
-- [Goals](https://github.com/ardalis/AngularBasic#goals)
-- [Design Decisions and Dependencies](https://github.com/ardalis/AngularBasic#design-decisions-and-dependencies)
-- [The Core Project](https://github.com/ardalis/AngularBasic#the-core-project)  
-- [The Infrastrucutre Project](https://github.com/ardalis/AngularBasic#the-infrastructure-project)  
-- [The Web Project](https://github.com/ardalis/AngularBasic#the-web-project)  
-- [The Test Project](https://github.com/ardalis/AngularBasic#the-test-project)
+The project is scaffolded out using Yeoman, from within Visual Studio.
 
 When you create a new project...
 
