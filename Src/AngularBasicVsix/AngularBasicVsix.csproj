@@ -68,7 +68,9 @@
       <Link>yo.bat</Link>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Resources\screen0.png" />
+    <Content Include="Resources\screen0.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Resources\screen1.png" />
     <Content Include="Resources\screen2.png" />
     <Content Include="Resources\VsixExtensionPreview_175x175.png">

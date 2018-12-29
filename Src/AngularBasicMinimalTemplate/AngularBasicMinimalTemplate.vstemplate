@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <!--<CreateNewFolder>false</CreateNewFolder>--><!--whether or not to create the top-level folder in doesn't already exist-->
     <DefaultName>None</DefaultName>
-    <Description>ang bas MyProjectTemplate2bb</Description>
+    <Description>A Yeoman scaffolded basic Angular.io / TypeScript web application, using AspNet Core (C#), WebPack, Gulp, Sass and Yarn (optional).</Description>
     <Icon>AngularBasicMinimalTemplate.ico</Icon>
-    <Name>ang bas MyProjectTemplate2b</Name>
+    <Name>Angular Basic</Name>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>Angular</ProjectSubType>
     <ProvideDefaultName>true</ProvideDefaultName>
@@ -13,23 +12,9 @@
     <TemplateID>878fe27b-3c68-46a7-8fc1-5e834a477d65</TemplateID>
     <EnableLocationBrowseButton>false</EnableLocationBrowseButton>
     <LocationField>Disabled</LocationField>
-    
-    <!--<RequiredFrameworkVersion>2.1</RequiredFrameworkVersion>-->
-    <!--value must be integer, and this is valid, but results in user being prompted for framework version nbr-->
-    <!--<RequiredFrameworkVersion>netcoreapp2.1</RequiredFrameworkVersion>-->
-    <!--value must be integer, and this is INvalid, but avoids user being prompted for framework version nbr-->
-    <!--taken from 'netcoreapp2.1' in matt's csproj-->
-    <!--in fact, omitting 'RequiredFrameworkVersion' altogether avoids user being prompted for framework version nbr-->
-
-
-
-
-
-
-
-
-
-
+    <!--Omitting 'RequiredFrameworkVersion' avoids user being prompted for framework version nbr-->
+    <!--<RequiredFrameworkVersion>2.1</RequiredFrameworkVersion> value must be integer, and this is valid, but results in user being prompted for framework version nbr-->
+    <!--<RequiredFrameworkVersion>netcoreapp2.1</RequiredFrameworkVersion> 'netcoreapp2.1' is taken from 'netcoreapp2.1' in matt's csproj; value must be integer, and this is INvalid, but avoids user being prompted for framework version nbr-->
   </TemplateData>
   <TemplateContent>
     <!--
