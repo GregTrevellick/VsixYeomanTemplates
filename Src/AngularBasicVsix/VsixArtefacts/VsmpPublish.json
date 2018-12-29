@@ -2,15 +2,15 @@
   "$schema": "http://json.schemastore.org/vsix-publish",
   "assetFiles": [ //images used in VsmpReadMe.md
     {
-      "pathOnDisk": "..\\AngularBasicVsix\\Resources\\screen0.png",
+      "pathOnDisk": "..\\Resources\\screen0.png",
       "targetPath": "screen0.png"
     },
     {
-      "pathOnDisk": "..\\AngularBasicVsix\\Resources\\screen1.png",
+      "pathOnDisk": "..\\Resources\\screen1.png",
       "targetPath": "screen1.png"
     },
     {
-      "pathOnDisk": "..\\AngularBasicVsix\\Resources\\screen2.png",
+      "pathOnDisk": "..\\Resources\\screen2.png",
       "targetPath": "screen2.png"
     }
   ],
@@ -22,7 +22,7 @@
   "identity": {
     "internalName": "AngularBasicVsix"
   },
-  "overview": "..\\VsmpReadMe.md", //vsmp page content
+  "overview": "VsmpReadMe.md", //vsmp page content
   "priceCategory": "free",
   "publisher": "GregTrevellick",
   "private": true,
