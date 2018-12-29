@@ -12,7 +12,7 @@ namespace AngularBasicVsix
         /// <summary>
         /// https://github.com/MattJeanes/AngularBasic
         /// </summary>
-        private const string generatorName = "angular-basic";
+        private const string generatorName = "angular-basic";//gregt move to config file or similar, include url in dialog ?
 
         public void RunStarted(object automationObject, Dictionary<string, string> replacementsDictionary, WizardRunKind runKind, object[] customParams)
         {

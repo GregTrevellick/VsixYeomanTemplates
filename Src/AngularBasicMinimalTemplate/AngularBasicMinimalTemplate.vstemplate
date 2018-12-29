@@ -40,7 +40,7 @@
     -->
   </TemplateContent>
   <WizardExtension>  
-    <Assembly>AngularBasicVsix, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=96c2bcc37a49c16f</Assembly>  
+    <Assembly>AngularBasicVsix, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=66aa5141e3f12407</Assembly>  
     <FullClassName>AngularBasicVsix.WizardImplementation</FullClassName>  
   </WizardExtension>  
 </VSTemplate>
