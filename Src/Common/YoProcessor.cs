@@ -70,9 +70,15 @@ namespace Common
 
         private void ArchiveRegularProject(string solutionDirectory, string tempDirectory, DirectoryInfo solutionDirectoryInfo)
         {
-            //GREGT cater for directory not exists / already exists
+            var dateTime = $"{DateTime.UtcNow.Year}{DateTime.UtcNow.Month}{DateTime.UtcNow.Day}_{DateTime.UtcNow.Hour}{DateTime.UtcNow.Minute}{DateTime.UtcNow.Second}_{DateTime.UtcNow.Millisecond}";
+            var archiveLocation = $"{tempDirectory}\\{solutionDirectoryInfo.Name}_{dateTime}";
 
-            var archiveLocation = $"{tempDirectory}\\{solutionDirectoryInfo.Name}";
+            if (Directory.Exists(archiveLocation))
+            {
+                var random = new Random();
+                archiveLocation = $"{archiveLocation}_{random.Next(1, 999999)}";
+            }
+
             Directory.Move(solutionDirectory, archiveLocation);
         }
 
