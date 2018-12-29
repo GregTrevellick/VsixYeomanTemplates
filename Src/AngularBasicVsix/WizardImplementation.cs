@@ -12,24 +12,28 @@ namespace AngularBasicVsix
         /// <summary>
         /// https://github.com/MattJeanes/AngularBasic
         /// </summary>
-        private const string generatorName = "angular-basic";//gregt move to config file or similar, include url in dialog ?
+        private const string generatorName = "angular-basic";//GREGT move to config file or similar, include url in dialog ?
 
         public void RunStarted(object automationObject, Dictionary<string, string> replacementsDictionary, WizardRunKind runKind, object[] customParams)
         {
             try
             {
+                //Init
                 var yoProcessor = new YoProcessor(generatorName);
                 var dto = yoProcessor.Initialise(replacementsDictionary);
                 var userInputForm = new UserInputForm(dto.SolutionDirectory, dto.TempDirectory, generatorName, dto.RegularProjectName);
 
+                //Show dialog
                 var dialogResult = userInputForm.ShowDialog();
+
+                //Handle result
                 if (dialogResult == DialogResult.OK)
                 {
                     yoProcessor.Generate();
                 }
                 else
                 {
-                    //gregt archive the regular project
+                    yoProcessor.ArchiveRegularProject(dto.SolutionDirectory, dto.TempDirectory, dto.SolutionDirectoryInfo);
                 }
             }
             catch (Exception ex)
