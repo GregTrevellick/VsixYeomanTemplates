@@ -81,15 +81,8 @@ namespace Common
                 WindowStyle = ProcessWindowStyle.Normal,
             };
 
-            try
-            {
-                using (Process.Start(start)) { }
-            }
-            catch (Exception ex)
-            {
-                //gregt do some vsix logging here
-                throw (ex);
-            }
+            // No need for a try/catch here - any exceptions are caught by the calling UserForm and displayed in the dialog to user
+            using (Process.Start(start)) { }
         }
     }
 }
