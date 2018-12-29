@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace YoAngularBasic
+namespace AngularBasicVsix
 {
     public class WizardImplementation : IWizard 
     {

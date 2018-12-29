@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace YoAngularBasic
+namespace AngularBasicVsix
 {
     public partial class UserInputForm : Form //gregt extract to common ???
     {
