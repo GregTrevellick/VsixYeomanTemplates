@@ -33,7 +33,7 @@ namespace AngularBasicVsix
                 }
                 else
                 {
-                    yoProcessor.ArchiveRegularProject(dto.SolutionDirectory, dto.TempDirectory, dto.SolutionDirectoryInfo);
+                    yoProcessor.ArchiveRegularProject(dto.SolutionDirectory, dto.TempDirectory);
                 }
             }
             catch (Exception ex)

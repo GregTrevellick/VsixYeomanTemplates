@@ -9,6 +9,7 @@ namespace Common
 {
     public class YoProcessor
     {
+        private DirectoryInfo solutionDirectoryInfo;
         private DirectorySystemDto _directorySystemDto;
         private FileSystemDto _fileSystemDto;
         private string _generatorName;
@@ -22,7 +23,7 @@ namespace Common
         {
             var regularProjectName = replacementsDictionary["$safeprojectname$"];
             var solutionDirectory = replacementsDictionary["$solutiondirectory$"];
-            var solutionDirectoryInfo = new DirectoryInfo(solutionDirectory);
+            solutionDirectoryInfo = new DirectoryInfo(solutionDirectory);
             var tempDirectory = Path.GetTempPath();
 
             _fileSystemDto = new FileSystemDto
@@ -60,6 +61,11 @@ namespace Common
             //GREGT cater for generationDirectory already exists 
 
             InvokeCommand(yoBatchFile, args);
+        }
+
+        public void ArchiveRegularProject(string solutionDirectory, string tempDirectory)
+        {
+            ArchiveRegularProject(solutionDirectory, tempDirectory, solutionDirectoryInfo);
         }
 
         private void ArchiveRegularProject(string solutionDirectory, string tempDirectory, DirectoryInfo solutionDirectoryInfo)
