@@ -27,7 +27,7 @@ for /f "eol=: delims=" %%F in ('dir /b/o-d/s/tc *.csproj') do (
 
 :: Open the last .csproj in "array" which is the .csproj file we just created (ideally we would open the newly generated project in the existing instance of Visual Studio, but the closest I got to this was "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe" /edit C:\temp\j2\j2.csproj which opens the .csproj file in existing VS instance (not the experimental one), but as a text file not as a project file)
 !folder%folderCnt%!
-rem gregt is this really the proj just created ???
+rem GREGT is this really the proj just created ???
 
 
 
