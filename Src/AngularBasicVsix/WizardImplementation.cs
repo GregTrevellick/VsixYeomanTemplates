@@ -18,14 +18,14 @@ namespace AngularBasicVsix
         {
             try
             {
-                var yeomanProcessor = new YeomanProcessor(generatorName);
-                var dto = yeomanProcessor.Initialise(replacementsDictionary);
+                var yoProcessor = new YoProcessor(generatorName);
+                var dto = yoProcessor.Initialise(replacementsDictionary);
                 var userInputForm = new UserInputForm(dto.SolutionDirectory, dto.TempDirectory, generatorName, dto.RegularProjectName);
 
                 var dialogResult = userInputForm.ShowDialog();
                 if (dialogResult == DialogResult.OK)
                 {
-                    yeomanProcessor.Generate();
+                    yoProcessor.Generate();
                 }
                 else
                 {

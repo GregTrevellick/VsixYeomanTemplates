@@ -2,11 +2,11 @@
   "$schema": "http://json.schemastore.org/vsix-publish",
   "assetFiles": [ //images used in VsmpReadMe.md
     {
-      "pathOnDisk": "..\\YoAngularBasic\\Resources\\screen0.png",
+      "pathOnDisk": "..\\AngularBasicVsix\\Resources\\screen0.png",
       "targetPath": "screen0.png"
     },
     {
-      "pathOnDisk": "..\\YoAngularBasic\\Resources\\screen1.png",
+      "pathOnDisk": "..\\AngularBasicVsix\\Resources\\screen1.png",
       "targetPath": "screen1.png"
     }
   ],
@@ -16,7 +16,7 @@
     "scaffolding"
   ],
   "identity": {
-    "internalName": "YoAngularBasic"
+    "internalName": "AngularBasicVsix"
   },
   "overview": "..\\VsmpReadMe.md", //vsmp page content
   "priceCategory": "free",
