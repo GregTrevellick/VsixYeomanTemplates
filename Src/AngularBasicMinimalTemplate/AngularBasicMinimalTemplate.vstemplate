@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <DefaultName>None</DefaultName>
+    <DefaultName>NotApplicable</DefaultName>
     <Description>A Yeoman scaffolded basic Angular.io / TypeScript web application, using AspNet Core (C#), WebPack, Gulp, Sass and Yarn (optional).</Description>
     <Icon>AngularBasicMinimalTemplate.ico</Icon>
     <Name>Angular Basic</Name>
