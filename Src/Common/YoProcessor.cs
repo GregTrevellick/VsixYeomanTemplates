@@ -55,13 +55,7 @@ namespace Common
             var assemblyLocation = Assembly.GetExecutingAssembly().Location;
             var assemblyDirectory = Path.GetDirectoryName(assemblyLocation);
 
-            //gregt
-            //if (Directory.Exists(generationDirectory))
-            //{
-            //    var dateTime = GetUniqueDateTime();
-            //    generationDirectory = GetUniqueLocation(generationDirectory);
-            //}
-
+            // Matt's code already caters for the ang-bas folder already existing - we don't need to check anything here
             var yoBatchFile = $@"{assemblyDirectory}\yo.bat";
             var args = $"{_generatorName} {generationDirectory}";
 
