@@ -17,7 +17,7 @@ namespace Common
                 $" from{Environment.NewLine}" +
                 $"      {solutionDirectory}{Environment.NewLine}" +
                 $" to{Environment.NewLine}" +
-                $"      {tempDirectory}{Environment.NewLine}" +
+                $"      {tempDirectory}{Environment.NewLine}_gregtdatetimesuffix" +
                 $"{Environment.NewLine}Click OK to proceed.";
         }
     }
