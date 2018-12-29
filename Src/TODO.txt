@@ -32,3 +32,4 @@ get it working for OmniSharp/generator-aspnet aswell as matt's ang-bas ==> gener
 add badges to VsixYeomanTemplates repo
 make it work for vs2019
 publish HelloWorldVsixProjectTemplateWizard example vsix
+add Topics within github website (only when production ready)
