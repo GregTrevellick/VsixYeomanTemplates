@@ -65,7 +65,7 @@ namespace Common
 
         private void OpenNewlyCreatedYoProject()
         {
-            //gregt
+            //GREGT
             //build "array" of.csproj files in sub-folders
             //sort by newest date
             //Open the last .csproj which is the.csproj file we just created
