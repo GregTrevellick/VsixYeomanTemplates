@@ -39,3 +39,6 @@ Contributions welcome [here][GitHubRepoPullRequestsURL].
 
 See the [change log](https://github.com/GregTrevellick/VsixYeomanTemplates/blob/master/CHANGELOG.md) for release history.
 
+### Road map
+
+- [ ] VS2019 support - yay !
