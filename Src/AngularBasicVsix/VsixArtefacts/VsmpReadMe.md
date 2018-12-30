@@ -27,6 +27,10 @@ When you create a new project...
 
 ![](screen3.png)
 
+...and upon build/run ('F5' in Visual Studio) this is the resultant website application...
+
+![](screen4.png)
+
 If you like this **free** extension please take just a few seconds to give it a rating.
 
 Contributions welcome [here][GitHubRepoPullRequestsURL].
