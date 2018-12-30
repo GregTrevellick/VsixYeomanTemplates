@@ -29,7 +29,7 @@ SIGNING
 TODOs
 =====
 get it working for OmniSharp/generator-aspnet aswell as matt's ang-bas ==> generatorName = "aspnet";//https://github.com/OmniSharp/generator-aspnet
-add badges to VsixYeomanTemplates repo
+STARTED....add badges to VsixYeomanTemplates repo
 
 
 
