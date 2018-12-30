@@ -36,7 +36,7 @@ namespace AngularBasicVsix
                 Name = "btnOk",
                 Size = CommonButtonSize(),
                 TabIndex = 0,
-                Text = "OK",
+                Text = DialogHelper.Ok,
                 UseVisualStyleBackColor = true
             };
 

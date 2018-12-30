@@ -4,6 +4,8 @@ namespace Common
 {
     public static class DialogHelper
     {
+        public static string Ok = "OK";
+
         public static string GetLabelText(string solutionDirectory, string tempDirectory, string generatorName, string regularProjectName)
         {
             return 
@@ -18,7 +20,7 @@ namespace Common
                 $"        from    {solutionDirectory}{Environment.NewLine}" +
                 $"        to      {tempDirectory} (albeit with a unique date/time identifier suffix){Environment.NewLine} " +
                 $"{Environment.NewLine}" + 
-                $"{Environment.NewLine}Click OK to proceed.";
+                $"{Environment.NewLine}Click {Ok} to proceed.";
         }
     }
 }
