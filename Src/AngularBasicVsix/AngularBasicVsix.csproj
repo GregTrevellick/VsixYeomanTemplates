@@ -98,8 +98,12 @@
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
     <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{93FB3988-00CC-4E75-BF1B-4D1677294C3C}</Project>
+      <Project>{80198d90-e379-43a1-abb5-36f7d9c509a7}</Project>
       <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PostGenerationProcessor\PostGenerationProcessor.csproj">
+      <Project>{e94766fa-5a0f-4abb-b6ca-c456df0b3a7f}</Project>
+      <Name>PostGenerationProcessor</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

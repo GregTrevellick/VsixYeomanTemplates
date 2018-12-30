@@ -57,22 +57,9 @@ namespace Common
 
             // Matt's code already caters for the ang-bas folder already existing - we don't need to check anything here
             var yoBatchFile = $@"{assemblyDirectory}\yo.bat";
-            var args = $"{_generatorName} {generationDirectory}";
+            // Wrap each arg in quotes so that batch file caters for spaces in path names etc
+            var args = $"\"{_generatorName}\" \"{generationDirectory}\" \"{assemblyDirectory}\"";
             CreateYoProjectOnDisc(yoBatchFile, args);
-
-            OpenNewlyCreatedYoProject();
-        }
-
-        private void OpenNewlyCreatedYoProject()
-        {
-            //GREGT
-            //build "array" of.csproj files in sub-folders
-            //sort by newest date
-            //Open the last .csproj which is the.csproj file we just created
-
-            //ideally we would open the newly generated project in the existing instance of Visual Studio, but the closest I got to this was 
-            //"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe" / edit C:\temp\j2\j2.csproj 
-            //which opens the.csproj file in existing VS instance(not the experimental one), but as a text file not as a project file
         }
 
         public void ArchiveRegularProject(string solutionDirectory, string tempDirectory)
