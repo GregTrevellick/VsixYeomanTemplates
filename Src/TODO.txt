@@ -28,6 +28,7 @@ TODOs
 =====
 --------------------rename 'MinimalProjectTemplate' to 'AngularBasicMinimalTemplate'
 --------------------rename 'YoAngularBasic' to 'AngularBasicVsix'
+better define tags in manifest
 get it working for OmniSharp/generator-aspnet aswell as matt's ang-bas ==> generatorName = "aspnet";//https://github.com/OmniSharp/generator-aspnet
 add badges to VsixYeomanTemplates repo
 make it work for vs2019
