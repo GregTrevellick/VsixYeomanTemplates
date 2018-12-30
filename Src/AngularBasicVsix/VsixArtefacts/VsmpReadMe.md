@@ -31,6 +31,8 @@ When you create a new project...
 
 ![](screen4.png)
 
+> Please note  a Visual Studio solution file (`.Sln`) will not be automatically created, but when you close Visual Studio you will be prompted to create and save a solution file.
+
 If you like this **free** extension please take just a few seconds to give it a rating.
 
 Contributions welcome [here][GitHubRepoPullRequestsURL].
