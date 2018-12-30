@@ -24,17 +24,16 @@ https://app.pluralsight.com/library/courses/dotnet-standard-getting-started/tabl
 
 
 
+
+
 TODOs
 =====
---------------------rename 'MinimalProjectTemplate' to 'AngularBasicMinimalTemplate'
---------------------rename 'YoAngularBasic' to 'AngularBasicVsix'
 get it working for OmniSharp/generator-aspnet aswell as matt's ang-bas ==> generatorName = "aspnet";//https://github.com/OmniSharp/generator-aspnet
 add badges to VsixYeomanTemplates repo
 
 
 
 
-better define tags in manifest
 publish HelloWorldVsixProjectTemplateWizard example vsix
 add Topics within github website (only when production ready)
 NOT YET - make it work for vs2019
