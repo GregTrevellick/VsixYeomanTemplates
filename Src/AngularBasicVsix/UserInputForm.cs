@@ -80,7 +80,7 @@ namespace AngularBasicVsix
         {
             AutoSize = true;
             AutoSizeMode = AutoSizeMode.GrowOnly;
-            ClientSize = new Size(650, 250);///////////////////////////////////////////////////////////////////////////////(646, 237);
+            ClientSize = new Size(650, 350);
             Name = "UserInputForm";
         }
     }
