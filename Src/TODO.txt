@@ -28,12 +28,14 @@ SIGNING
 
 TODOs
 =====
+GREGT private void OpenNewlyCreatedYoProject()
 get it working for OmniSharp/generator-aspnet aswell as matt's ang-bas ==> generatorName = "aspnet";//https://github.com/OmniSharp/generator-aspnet
+
+
+
+
+
 STARTED....add badges to VsixYeomanTemplates repo
-
-
-
-
 publish HelloWorldVsixProjectTemplateWizard example vsix
 add Topics within github website (only when production ready)
 NOT YET - make it work for vs2019
