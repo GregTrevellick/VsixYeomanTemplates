@@ -14,13 +14,13 @@ SIGNING
 
 
 
-CONVERT TO NET CORE
-===================
-https://www.danielcrabtree.com/blog/314/upgrading-to-net-core-and-net-standard-made-easy
-https://natemcmaster.com/blog/2017/03/09/vs2015-to-vs2017-upgrade/#approach-two-manually-convert
-file:///C:/Users/gtrev/Documents/Portability%20Analysis/ApiPortAnalysis.html#Portability%20Summary
-dotnet migrate-2017 migrate "C:\_git\AngularBasic\vsixTemplatePackSideWaffle\vsixTemplatePackSideWaffle.csproj"
-https://app.pluralsight.com/library/courses/dotnet-standard-getting-started/table-of-contents
+::CONVERT TO NET CORE
+::===================
+::https://www.danielcrabtree.com/blog/314/upgrading-to-net-core-and-net-standard-made-easy
+::https://natemcmaster.com/blog/2017/03/09/vs2015-to-vs2017-upgrade/#approach-two-manually-convert
+::file:///C:/Users/gtrev/Documents/Portability%20Analysis/ApiPortAnalysis.html#Portability%20Summary
+::dotnet migrate-2017 migrate "C:\_git\AngularBasic\vsixTemplatePackSideWaffle\vsixTemplatePackSideWaffle.csproj"
+::https://app.pluralsight.com/library/courses/dotnet-standard-getting-started/table-of-contents
 
 
 
