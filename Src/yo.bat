@@ -34,7 +34,6 @@ PostGenerationProcessor.exe %arg2RegularProjDir%
 
 
 
-
 rem build "array" of .csproj files in sub-folders
 ::set folderCnt=0
 

@@ -26,7 +26,7 @@ namespace PostGenerationProcessor
                 //Arguments = args,
                 CreateNoWindow = false,
                 FileName = fileToBeOpened,
-                UseShellExecute = false,
+                UseShellExecute = true,//gregt not dedupe
                 WindowStyle = ProcessWindowStyle.Normal,
             };
 
