@@ -18,44 +18,44 @@ namespace AngularBasicVsix
 
         private void AddFormControls(string solutionDirectory, string tempDirectory, string generatorName, string regularProjectName)
         {
-            var btnCancel = new Button
+            var label1 = new Label
             {
-                DialogResult = DialogResult.Cancel,
-                Location = new Point(559, 202),//gregt auto-position ?
-                Name = "btnCancel",
-                Size = CommonButtonSize(),
-                TabIndex = 1,
-                Text = "Cancel",
-                UseVisualStyleBackColor = true
+                AutoSize = true,
+                //Location = new Point(25, 22),//gregt auto-position ?
+                Name = "label1",
+                Text = DialogHelper.GetLabelText(solutionDirectory, tempDirectory, generatorName, regularProjectName)
             };
 
             var btnOk = new Button
             {
                 DialogResult = DialogResult.OK,
-                Location = new Point(464, 202),//gregt auto-position ?
+                Location = new Point(label1.Location.X, 400),//gregt auto-position ?
                 Name = "btnOk",
-                Size = CommonButtonSize(),
                 TabIndex = 0,
                 Text = DialogHelper.Ok,
-                UseVisualStyleBackColor = true
             };
 
-            var label1 = new Label
+            var btnCancel = new Button
             {
-                AutoSize = true,
-                Location = new Point(25, 22),//gregt auto-position ?
-                Name = "label1",
-                Text = DialogHelper.GetLabelText(solutionDirectory, tempDirectory, generatorName, regularProjectName)
+                DialogResult = DialogResult.Cancel,
+                Location = new Point(btnOk.Location.X+77, btnOk.Location.Y),//gregt auto-position ?
+                Name = "btnCancel",
+                TabIndex = 1,
+                Text = "Cancel",
             };
 
             // Button click events
-            btnCancel.Click += new EventHandler(btnOkCancel_Click);
             btnOk.Click += new EventHandler(btnOkCancel_Click);
+            btnCancel.Click += new EventHandler(btnOkCancel_Click);
 
+            // Shared
+            btnOk.Size = btnCancel.Size = CommonButtonSize();
+            btnOk.UseVisualStyleBackColor = btnCancel.UseVisualStyleBackColor = true;
+           
             // Add controls to form
-            Controls.Add(btnCancel);
-            Controls.Add(btnOk);
             Controls.Add(label1);
+            Controls.Add(btnOk);
+            Controls.Add(btnCancel);
         }
 
         private Size CommonButtonSize()
@@ -77,10 +77,11 @@ namespace AngularBasicVsix
         ///  The form can be resized, but cannot be made so small that any of its contained controls are hidden.
         /// </summary>
         private void DefineFormSettings()
-        {
+        {            
             AutoSize = true;
             AutoSizeMode = AutoSizeMode.GrowOnly;
-            ClientSize = new Size(650, 350);
+            ClientSize = new Size(200, 100);
+            Font = new Font(Font.FontFamily, Font.SizeInPoints + 1);
             Name = "UserInputForm";
         }
     }
