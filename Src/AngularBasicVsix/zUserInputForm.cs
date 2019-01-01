@@ -1,13 +1,13 @@
-﻿using Common;
+using Common;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
 
 namespace AngularBasicVsix
 {
-    public partial class UserInputForm : Form 
+    public partial class zUserInputForm : Form 
     {
-        public UserInputForm(string solutionDirectory, string tempDirectory, string generatorName, string regularProjectName)
+        public zUserInputForm(string solutionDirectory, string tempDirectory, string generatorName, string regularProjectName)
         {
             SuspendLayout();
             AddFormControls(solutionDirectory, tempDirectory, generatorName, regularProjectName);
@@ -20,6 +20,7 @@ namespace AngularBasicVsix
         {
             var label1 = new Label
             {
+                AutoSize = true,
                 //Location = new Point(25, 22),//gregt auto-position ?
                 Name = "label1",
                 Text = DialogHelper.GetLabelText(solutionDirectory, tempDirectory, generatorName, regularProjectName)
@@ -48,28 +49,18 @@ namespace AngularBasicVsix
             btnCancel.Click += new EventHandler(btnOkCancel_Click);
 
             // Shared
-            btnCancel.Size = new Size(20, 14);
-            btnOk.Size = btnCancel.Size;
-            btnOk.AutoSize = btnCancel.AutoSize = label1.AutoSize = true;
-            btnOk.AutoSizeMode = btnCancel.AutoSizeMode = AutoSizeMode.GrowOnly;
+            btnOk.Size = btnCancel.Size = CommonButtonSize();
             btnOk.UseVisualStyleBackColor = btnCancel.UseVisualStyleBackColor = true;
-
-            // Docking
-            btnOk.Dock = btnCancel.Dock = label1.Dock = DockStyle.Top;
-            //var panel = new Panel();
-            //panel.Dock = DockStyle.Bottom;
-            //panel.AutoScroll = false;
-            //panel.AutoSize = true;
-            //panel.AutoSizeMode = AutoSizeMode.GrowOnly;
-
+           
             // Add controls to form
             Controls.Add(label1);
             Controls.Add(btnOk);
             Controls.Add(btnCancel);
-            //panel.Controls.Add(btnCancel);
-            //panel.Controls.Add(btnOk);
-            //panel.Controls.Add(label1);          
-            //Controls.Add(panel);
+        }
+
+        private Size CommonButtonSize()
+        {
+            return new Size(75, 23);
         }
 
         private void btnOkCancel_Click(object sender, EventArgs e)
@@ -86,14 +77,12 @@ namespace AngularBasicVsix
         ///  The form can be resized, but cannot be made so small that any of its contained controls are hidden.
         /// </summary>
         private void DefineFormSettings()
-        {
+        {            
             AutoSize = true;
             AutoSizeMode = AutoSizeMode.GrowOnly;
             ClientSize = new Size(200, 100);
-            //increase font size, but on reflection doesn't look too good...
-            //Font = new Font(Font.FontFamily, Font.SizeInPoints + 1);
+            Font = new Font(Font.FontFamily, Font.SizeInPoints + 1);
             Name = "UserInputForm";
-            Padding = new Padding(10);
         }
     }
 }
