@@ -9,15 +9,11 @@ namespace AngularBasicVsix
 {
     public class WizardImplementation : IWizard 
     {
-        /// <summary>
-        /// https://github.com/MattJeanes/AngularBasic
-        /// </summary>
-        private const string generatorName = "angular-basic";//gregt move to config file or similar, include url in dialog ?
-
         public void RunStarted(object automationObject, Dictionary<string, string> replacementsDictionary, WizardRunKind runKind, object[] customParams)
         {
             try
             {
+                var generatorName = System.Configuration.ConfigurationSettings.AppSettings["GeneratorName"];
                 var popUpDialog = new PopUpDialog(generatorName, replacementsDictionary);
                 popUpDialog.Show();
             }

@@ -78,6 +78,7 @@
     <Content Include="Resources\VsixExtensionPreview_90x90.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <None Include="App.config" />
     <None Include="Key.snk" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
