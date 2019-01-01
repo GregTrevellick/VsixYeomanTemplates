@@ -9,11 +9,9 @@ namespace AngularBasicVsix
     public partial class PopUpDialog : DialogWindow
     {
         private string _generatorName;
-        //private Dictionary<string, string> _replacementsDictionary;
         private YoProcessor _yoProcessor;
         private FileSystemDto _dto;
 
-        //public PopUpDialog(string solutionDirectory, string tempDirectory, string generatorName, string regularProjectName, Dictionary<string, string> replacementsDictionary)
         public PopUpDialog(string generatorName, Dictionary<string, string> replacementsDictionary)
         {
             _generatorName = generatorName;

@@ -1,4 +1,3 @@
-using Common;
 using EnvDTE;
 using Microsoft.VisualStudio.TemplateWizard;
 using System;
@@ -23,7 +22,6 @@ namespace AngularBasicVsix
             }
             catch (Exception ex)
             {
-                // No need to perform logging here - any exceptions are displayed in UI to user
                 MessageBox.Show(ex.ToString());
             }
         }
