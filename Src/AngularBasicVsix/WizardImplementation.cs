@@ -24,21 +24,23 @@ namespace AngularBasicVsix
                 var dto = yoProcessor.Initialise(replacementsDictionary);
                 var popUpDialog = new PopUpDialog(dto.SolutionDirectory, dto.TempDirectory, generatorName, dto.RegularProjectName);
 
-                //Show dialog
-                var window = new System.Windows.Window
-                {
-                    Title = "gregt title",
-                    Content = popUpDialog,
-                    SizeToContent = SizeToContent.WidthAndHeight,
-                    WindowStartupLocation = WindowStartupLocation.CenterScreen
-                };
-                window.ResizeMode = ResizeMode.CanResize;
-                window.Show();
+                popUpDialog.AppTextBlockQuotation.Text =
+                    "adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd " + Environment.NewLine +
+                    "adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd " + Environment.NewLine +
+                    "adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd " + Environment.NewLine +
+                    "adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd " + Environment.NewLine +
+                    "adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd " + Environment.NewLine;
+                popUpDialog.Show();
+
+                ////Title = "gregt title",
+                ////SizeToContent = SizeToContent.WidthAndHeight,
+                ////WindowStartupLocation = WindowStartupLocation.CenterScreen
+                ////window.ResizeMode = ResizeMode.CanResize;
 
                 //Handle result
                 //if (dialogResult == DialogResult.OK)
                 //{
-                    yoProcessor.Generate();
+                //    yoProcessor.Generate();
                 //}
                 //else
                 //{
