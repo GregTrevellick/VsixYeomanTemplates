@@ -3,7 +3,8 @@ using EnvDTE;
 using Microsoft.VisualStudio.TemplateWizard;
 using System;
 using System.Collections.Generic;
-using System.Windows.Forms;
+using System.Windows;
+//using System.Windows.Forms;
 
 namespace AngularBasicVsix
 {
@@ -21,20 +22,28 @@ namespace AngularBasicVsix
                 //Init
                 var yoProcessor = new YoProcessor(generatorName);
                 var dto = yoProcessor.Initialise(replacementsDictionary);
-                var userInputForm = new UserInputForm(dto.SolutionDirectory, dto.TempDirectory, generatorName, dto.RegularProjectName);
+                var userInputForm = new PopUpDialog();//new UserInputForm(dto.SolutionDirectory, dto.TempDirectory, generatorName, dto.RegularProjectName);
 
                 //Show dialog
-                var dialogResult = userInputForm.ShowDialog();
+                var window = new System.Windows.Window
+                {
+                    Title = "gregt title",
+                    Content = userInputForm,
+                    SizeToContent = SizeToContent.WidthAndHeight,
+                    WindowStartupLocation = WindowStartupLocation.CenterScreen
+                };
+                window.ResizeMode = ResizeMode.CanResize;
+                window.Show();
 
                 //Handle result
-                if (dialogResult == DialogResult.OK)
-                {
+                //if (dialogResult == DialogResult.OK)
+                //{
                     yoProcessor.Generate();
-                }
-                else
-                {
-                    yoProcessor.ArchiveRegularProject(dto.SolutionDirectory, dto.TempDirectory);
-                }
+                //}
+                //else
+                //{
+                //    yoProcessor.ArchiveRegularProject(dto.SolutionDirectory, dto.TempDirectory);
+                //}
             }
             catch (Exception ex)
             {
