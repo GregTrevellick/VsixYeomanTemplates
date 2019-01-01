@@ -24,13 +24,13 @@ namespace AngularBasicVsix
 
         private void InitializePopUpDialog()
         {
-            Title = "gregt title";
-            ResizeMode = ResizeMode.CanResize;
+            AppTextBlock.Text = DialogHelper.GetLabelText(_dto.SolutionDirectory, _dto.TempDirectory, _generatorName, _dto.RegularProjectName);
             HasMaximizeButton = true;
             HasMinimizeButton = true;
+            ResizeMode = ResizeMode.CanResize;
             SizeToContent = SizeToContent.WidthAndHeight;
+            Title = "gregt title";
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
-            AppTextBlockQuotation.Text = DialogHelper.GetLabelText(_dto.SolutionDirectory, _dto.TempDirectory, _generatorName, _dto.RegularProjectName);
         }
 
         private void BtnOkay_OnClick(object sender, RoutedEventArgs e)
@@ -54,7 +54,6 @@ namespace AngularBasicVsix
         //private void ButtonClose_OnClick(object sender, RoutedEventArgs e)
         //{
         //    var parentWindow = Window.GetWindow((DependencyObject)sender);
-
         //    if (parentWindow != null)
         //    {
         //        parentWindow.Close();
