@@ -25,7 +25,7 @@
     -->
   </TemplateContent>
   <WizardExtension>  
-    <Assembly>AngularBasicVsix, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=66aa5141e3f12407</Assembly>  
-    <FullClassName>AngularBasicVsix.WizardImplementation</FullClassName>  
+    <Assembly>CommonUi, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=1b3176fd3417dc05</Assembly>  
+    <FullClassName>VsixCommonWizard.WizardImplementation</FullClassName>  
   </WizardExtension>  
 </VSTemplate>

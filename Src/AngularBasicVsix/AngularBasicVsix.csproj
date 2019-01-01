@@ -54,7 +54,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WizardImplementation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\..\LICENSE.txt">
@@ -98,6 +97,8 @@
     <ProjectReference Include="..\CommonUi\CommonUi.csproj">
       <Project>{527575a6-03fe-43b3-bc7e-78d6a0fda0ae}</Project>
       <Name>CommonUi</Name>
+      <IncludeOutputGroupsInVSIX>BuiltProjectOutputGroup%3bBuiltProjectOutputGroupDependencies%3bGetCopyToOutputDirectoryItems%3bSatelliteDllsProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+      <IncludeOutputGroupsInVSIXLocalOnly>DebugSymbolsProjectOutputGroup%3b</IncludeOutputGroupsInVSIXLocalOnly>
     </ProjectReference>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{80198d90-e379-43a1-abb5-36f7d9c509a7}</Project>

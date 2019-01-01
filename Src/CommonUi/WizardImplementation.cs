@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows;
 
-namespace AngularBasicVsix
+namespace VsixCommonWizard
 {
     public class WizardImplementation : IWizard 
     {
