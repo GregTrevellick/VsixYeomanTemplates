@@ -50,7 +50,7 @@
     <None Include="MinimalTemplate.ico" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="AngularBasicMinimalTemplate.vstemplate">
+    <VSTemplate Include="MinimalTemplate.vstemplate">
       <SubType>Designer</SubType>
     </VSTemplate>
   </ItemGroup>
