@@ -1,30 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.VisualStudio.PlatformUI;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace AngularBasicVsix
 {
-    /// <summary>
-    /// Interaction logic for UserControl1.xaml
-    /// </summary>
-    public partial class PopUpDialog : UserControl
+    public partial class PopUpDialog : DialogWindow
     {
         public PopUpDialog(string solutionDirectory, string tempDirectory, string generatorName, string regularProjectName)
         {
             InitializeComponent();
-//            InitializePopUpDialog();
-
+            InitializePopUpDialog();
 
             //var label1 = new Label
             //{
@@ -62,14 +46,23 @@ namespace AngularBasicVsix
         //    return new Size(75, 23);
         //}
 
-        //private void InitializePopUpDialog()
-        //{
-        //    HasMaximizeButton = true;
-        //    HasMinimizeButton = true;
-        //    SizeToContent = SizeToContent.WidthAndHeight;
-        //    WindowStartupLocation = WindowStartupLocation.CenterScreen;
-        //}
+        private void InitializePopUpDialog()
+        {
+            HasMaximizeButton = true;
+            HasMinimizeButton = true;
+            SizeToContent = SizeToContent.WidthAndHeight;
+            WindowStartupLocation = WindowStartupLocation.CenterScreen;
+        }
 
+        private void BtnOkay_OnClick(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        private void BtnCancel_OnClick(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
 
         private void ButtonClose_OnClick(object sender, RoutedEventArgs e)
         {
