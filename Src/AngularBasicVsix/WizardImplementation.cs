@@ -18,20 +18,8 @@ namespace AngularBasicVsix
         {
             try
             {
-                //Initialise
-                var yoProcessor = new YoProcessor(generatorName);
-                var dto = yoProcessor.Initialise(replacementsDictionary);
-                var popUpDialog = new PopUpDialog(dto.SolutionDirectory, dto.TempDirectory, generatorName, dto.RegularProjectName);
-
-                //Handle result
-                //if (dialogResult == DialogResult.OK)
-                //{
-                //    yoProcessor.Generate();
-                //}
-                //else
-                //{
-                //    yoProcessor.ArchiveRegularProject(dto.SolutionDirectory, dto.TempDirectory);
-                //}
+                var popUpDialog = new PopUpDialog(generatorName, replacementsDictionary);
+                popUpDialog.Show();
             }
             catch (Exception ex)
             {
