@@ -4,7 +4,6 @@ using Microsoft.VisualStudio.TemplateWizard;
 using System;
 using System.Collections.Generic;
 using System.Windows;
-//using System.Windows.Forms;
 
 namespace AngularBasicVsix
 {
@@ -23,16 +22,6 @@ namespace AngularBasicVsix
                 var yoProcessor = new YoProcessor(generatorName);
                 var dto = yoProcessor.Initialise(replacementsDictionary);
                 var popUpDialog = new PopUpDialog(dto.SolutionDirectory, dto.TempDirectory, generatorName, dto.RegularProjectName);
-
-                //////////////////////////////////////////////////popUpDialog.AppTextBlockQuotation.Text =
-                //////////////////////////////////////////////////    "adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd " + Environment.NewLine +
-                //////////////////////////////////////////////////    "adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd " + Environment.NewLine +
-                //////////////////////////////////////////////////    "adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd " + Environment.NewLine +
-                //////////////////////////////////////////////////    "adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd " + Environment.NewLine +
-                //////////////////////////////////////////////////    "adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd adfdsfadsfasdfd " + Environment.NewLine;
-                //////////////////////////////////////////////////popUpDialog.Show();
-
-
 
                 //Handle result
                 //if (dialogResult == DialogResult.OK)
