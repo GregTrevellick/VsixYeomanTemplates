@@ -19,16 +19,16 @@ namespace AngularBasicVsix
         {
             try
             {
-                //Init
+                //Initialise
                 var yoProcessor = new YoProcessor(generatorName);
                 var dto = yoProcessor.Initialise(replacementsDictionary);
-                var userInputForm = new PopUpDialog();//new UserInputForm(dto.SolutionDirectory, dto.TempDirectory, generatorName, dto.RegularProjectName);
+                var popUpDialog = new PopUpDialog(dto.SolutionDirectory, dto.TempDirectory, generatorName, dto.RegularProjectName);
 
                 //Show dialog
                 var window = new System.Windows.Window
                 {
                     Title = "gregt title",
-                    Content = userInputForm,
+                    Content = popUpDialog,
                     SizeToContent = SizeToContent.WidthAndHeight,
                     WindowStartupLocation = WindowStartupLocation.CenterScreen
                 };
