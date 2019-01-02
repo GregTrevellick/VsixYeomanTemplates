@@ -43,9 +43,13 @@ namespace CommonUi
 
         private void BtnCancel_OnClick(object sender, RoutedEventArgs e)//corner x to also do archgive
         {
-            Close(); //This will invoke OnClosing
+            Close(); 
         }
 
+        /// <summary>
+        /// Invoked by Close();
+        /// </summary>
+        /// <param name="e"></param>
         protected override void OnClosing(CancelEventArgs e)
         {
             _yoProcessor.ArchiveRegularProject(_dto.SolutionDirectory, _dto.TempDirectory);
