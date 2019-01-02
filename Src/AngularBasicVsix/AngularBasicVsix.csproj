@@ -85,7 +85,6 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="VsixArtefacts\VsmpPublish.json" />
-    <None Include="VsixArtefacts\VsmpPublish.ps" />
     <None Include="VsixArtefacts\VsmpReadMe.md" />
   </ItemGroup>
   <ItemGroup>
