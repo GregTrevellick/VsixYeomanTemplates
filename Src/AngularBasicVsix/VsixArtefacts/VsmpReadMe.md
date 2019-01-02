@@ -1,10 +1,10 @@
 [GitHubRepoPullRequestsURL]: https://github.com/GregTrevellick/VsixYeomanTemplates/pulls
 
-A [Yeoman](https://yeoman.io/) scaffolded basic [Angular.io](https://angular.io/) / [TypeScript](https://www.typescriptlang.org/) web application project template for [Visual Studio](https://visualstudio.microsoft.com/vs/) and [VS Code](https://code.visualstudio.com/), using [AspNet Core](https://www.asp.net/) (C#), [WebPack](https://webpack.js.org/), [Gulp](https://gulpjs.com/), [Sass](https://sass-lang.com/) and [Yarn](https://yarnpkg.com) (optional).
+A basic [Angular.io](https://angular.io/) / [TypeScript](https://www.typescriptlang.org/) web application project template for [Visual Studio](https://visualstudio.microsoft.com/vs/) and [VS Code](https://code.visualstudio.com/), using [AspNet Core](https://www.asp.net/) (C#), [WebPack](https://webpack.js.org/), [Gulp](https://gulpjs.com/), [Sass](https://sass-lang.com/) and [Yarn](https://yarnpkg.com) (optional).
 
 >##### Based on the [Angular Basic](https://github.com/MattJeanes/AngularBasic) project from [Matt Jeanes](https://mattjeanes.com/).
 
-The project is scaffolded out using [Yeoman](https://yeoman.io/) from within Visual Studio.
+The project is scaffolded out using [Yeoman](https://yeoman.io/) from within [Visual Studio](https://visualstudio.microsoft.com/vs/).
 
 When you create a new project...
 
