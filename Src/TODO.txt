@@ -11,23 +11,17 @@ SIGNING
 
 TODOs
 =====
-YAY
+1. check badges
+2. YAY
 "aspnet" https://github.com/OmniSharp/generator-aspnet
 Aa2.sln https://github.com/sgbj/generator-aspnetcore-angular2
 Vnc1.sln https://github.com/vue-typed/generator-vue-net-core
-https://github.com/mrellipse/toucan
-
-
-check badges
-publish HelloWorldVsixProjectTemplateWizard example vsix
-add Topics within github website (only when production ready)
-NOT YET - make it work for vs2019
-template category ?
+toucan https://github.com/mrellipse/toucan
+3. template category ? tags ? add Topics within github website (only when production ready)
+98. publish HelloWorldVsixProjectTemplateWizard example vsix
+99. NOT YET - make it work for vs2019
 
 DUNNO
 https://github.com/digipolisantwerp/generator-dgp-api-aspnetcore_yeoman
 https://github.com/digipolisantwerp/generator-dgp-web-aspnetcore_yeoman
 https://github.com/serghar/CANDYMAN
-
-NAH
-https://github.com/Microsoft/generator-docker
