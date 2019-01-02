@@ -2,6 +2,7 @@
 using CommonYo.Dtos;
 using Microsoft.VisualStudio.PlatformUI;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Windows;
 
 namespace CommonUi
@@ -40,10 +41,14 @@ namespace CommonUi
             Close();
         }
 
-        private void BtnCancel_OnClick(object sender, RoutedEventArgs e)
+        private void BtnCancel_OnClick(object sender, RoutedEventArgs e)//corner x to also do archgive
+        {
+            Close(); //This will invoke OnClosing
+        }
+
+        protected override void OnClosing(CancelEventArgs e)
         {
             _yoProcessor.ArchiveRegularProject(_dto.SolutionDirectory, _dto.TempDirectory);
-            Close();
         }
     }
 }

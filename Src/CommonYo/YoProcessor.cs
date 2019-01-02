@@ -42,12 +42,9 @@ namespace CommonYo
             return _fileSystemDto;
         }
 
-        public void Generate()
+        public void Generate()//gregt make async
         {
             GenerateYeomanProject(_directorySystemDto.SolutionDirectoryInfo.Parent.FullName);
-
-            // now that yeoman has done its thing we are at the only point in code where we can try to archive the regular project, safe in the knowledge that enough time has passed to gaurantee it was created successfully
-            ArchiveRegularProject(_fileSystemDto.SolutionDirectory, _fileSystemDto.TempDirectory, _directorySystemDto.SolutionDirectoryInfo);
         }
 
         private void GenerateYeomanProject(string generationDirectory)
@@ -62,7 +59,7 @@ namespace CommonYo
             CreateYoProjectOnDisc(yoBatchFile, args);
         }
 
-        public void ArchiveRegularProject(string solutionDirectory, string tempDirectory)
+        public void ArchiveRegularProject(string solutionDirectory, string tempDirectory)//gregt make async
         {
             ArchiveRegularProject(solutionDirectory, tempDirectory, _solutionDirectoryInfo);
         }
