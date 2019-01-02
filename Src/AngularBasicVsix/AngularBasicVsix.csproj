@@ -106,6 +106,12 @@
       <Project>{80198d90-e379-43a1-abb5-36f7d9c509a7}</Project>
       <Name>Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PostGenerationProcessor\CommonIdeLauncher.csproj">
+      <Project>{E94766FA-5A0F-4ABB-B6CA-C456DF0B3A7F}</Project>
+      <Name>CommonIdeLauncher</Name>
+      <IncludeOutputGroupsInVSIX>BuiltProjectOutputGroup%3bBuiltProjectOutputGroupDependencies%3bGetCopyToOutputDirectoryItems%3bSatelliteDllsProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+      <IncludeOutputGroupsInVSIXLocalOnly>DebugSymbolsProjectOutputGroup%3b</IncludeOutputGroupsInVSIXLocalOnly>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

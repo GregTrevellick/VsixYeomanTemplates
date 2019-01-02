@@ -25,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{80198D90-E379-43A1-ABB5-36F7D9C509A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostGenerationProcessor", "PostGenerationProcessor\PostGenerationProcessor.csproj", "{E94766FA-5A0F-4ABB-B6CA-C456DF0B3A7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonIdeLauncher", "PostGenerationProcessor\CommonIdeLauncher.csproj", "{E94766FA-5A0F-4ABB-B6CA-C456DF0B3A7F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonUi", "CommonUi\CommonUi.csproj", "{527575A6-03FE-43B3-BC7E-78D6A0FDA0AE}"
 EndProject
