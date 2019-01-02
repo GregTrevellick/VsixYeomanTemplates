@@ -11,6 +11,7 @@ SIGNING
 
 TODOs
 =====
+1. text / bullet points in the pop up 
 1. check badges
 2. YAY
 "aspnet" https://github.com/OmniSharp/generator-aspnet
