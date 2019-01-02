@@ -1,4 +1,4 @@
-﻿namespace PostGenerationProcessor
+﻿namespace CommonIdeLauncher
 {
     public class Program
     {
