@@ -25,6 +25,7 @@ namespace CommonUi
         private void InitializePopUpDialog()
         {
             AppTextBlock.Text = DialogHelper.GetLabelText(_dto.SolutionDirectory, _dto.TempDirectory, _generatorName, _dto.RegularProjectName);
+            BtnOkay.Focus();
             HasMaximizeButton = true;
             HasMinimizeButton = true;
             ResizeMode = ResizeMode.CanResize;
