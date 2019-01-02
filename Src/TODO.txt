@@ -43,6 +43,7 @@ STARTED....add badges to VsixYeomanTemplates repo
 publish HelloWorldVsixProjectTemplateWizard example vsix
 add Topics within github website (only when production ready)
 NOT YET - make it work for vs2019
+template category ?
 
 
 
@@ -79,7 +80,19 @@ NOT YET - make it work for vs2019
 
 
 
-
+rem BUG: VSSDK: error VsixPub0029 : An error occurred while communicating with the marketplace: categories: Your extension type does not match the VSIX. It should be configured as a Template type.
+rem FIX: the category determines the type templates/controls/tools
+::the template categories are (must be lower case in json file)
+::	AJAX 
+::	ASP.NET
+::	Visual Studio Extensions
+::	Other
+::	several more
+::the controls categories are
+::	see manual upload page
+::the tools categories are
+::	see manual upload page
+ 
 
 
 
