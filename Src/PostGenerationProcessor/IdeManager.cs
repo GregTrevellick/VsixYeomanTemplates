@@ -2,7 +2,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 
-namespace PostGenerationProcessor
+namespace CommonIdeLauncher
 {
     public class IdeManager
     {

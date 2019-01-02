@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E94766FA-5A0F-4ABB-B6CA-C456DF0B3A7F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PostGenerationProcessor</RootNamespace>
-    <AssemblyName>PostGenerationProcessor</AssemblyName>
+    <RootNamespace>CommonIdeLauncher</RootNamespace>
+    <AssemblyName>CommonIdeLauncher</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
