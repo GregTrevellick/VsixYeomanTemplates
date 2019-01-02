@@ -29,7 +29,7 @@ namespace CommonUi
             HasMinimizeButton = true;
             ResizeMode = ResizeMode.CanResize;
             SizeToContent = SizeToContent.WidthAndHeight;
-            Title = "gregt title";
+            Title = _generatorName;
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
         }
 
