@@ -6,4 +6,8 @@
     <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="DialogHelper.cs" />
+  </ItemGroup>
+
 </Project>

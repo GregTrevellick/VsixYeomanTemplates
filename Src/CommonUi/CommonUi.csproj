@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConfigHelper.cs" />
+    <Compile Include="DialogHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PopUpDialog.xaml.cs">
       <DependentUpon>PopUpDialog.xaml</DependentUpon>

@@ -1,6 +1,6 @@
 using System;
 
-namespace Common
+namespace CommonUi
 {
     public static class DialogHelper
     {
