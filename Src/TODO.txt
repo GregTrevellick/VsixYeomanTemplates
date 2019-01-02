@@ -33,7 +33,6 @@ Paste public key into C:\_git\VsixYeomanTemplates\src\AngularBasicMinimalTemplat
 
 TODOs
 =====
-GREGT private void OpenNewlyCreatedYoProject()
 get it working for OmniSharp/generator-aspnet aswell as matt's ang-bas ==> generatorName = "aspnet";//https://github.com/OmniSharp/generator-aspnet
 in readme's make yeoman a hyperlink to yeoman website
 
