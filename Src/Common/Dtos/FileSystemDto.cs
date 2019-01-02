@@ -1,4 +1,4 @@
-namespace Common.Dtos
+namespace CommonYo.Dtos
 {
     public class FileSystemDto
     {

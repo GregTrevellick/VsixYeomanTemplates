@@ -1,5 +1,5 @@
-﻿using Common;
-using Common.Dtos;
+﻿using CommonYo;
+using CommonYo.Dtos;
 using Microsoft.VisualStudio.PlatformUI;
 using System.Collections.Generic;
 using System.Windows;

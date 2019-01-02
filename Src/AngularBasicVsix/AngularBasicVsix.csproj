@@ -106,9 +106,9 @@
       <IncludeOutputGroupsInVSIX>BuiltProjectOutputGroup%3bBuiltProjectOutputGroupDependencies%3bGetCopyToOutputDirectoryItems%3bSatelliteDllsProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
       <IncludeOutputGroupsInVSIXLocalOnly>DebugSymbolsProjectOutputGroup%3b</IncludeOutputGroupsInVSIXLocalOnly>
     </ProjectReference>
-    <ProjectReference Include="..\Common\Common.csproj">
+    <ProjectReference Include="..\Common\CommonYo.csproj">
       <Project>{80198d90-e379-43a1-abb5-36f7d9c509a7}</Project>
-      <Name>Common</Name>
+      <Name>CommonYo</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

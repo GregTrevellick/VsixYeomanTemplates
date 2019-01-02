@@ -1,11 +1,11 @@
-using Common.Dtos;
+using CommonYo.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 
-namespace Common
+namespace CommonYo
 {
     public class YoProcessor
     {

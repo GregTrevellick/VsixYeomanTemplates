@@ -1,6 +1,6 @@
 using System.IO;
 
-namespace Common.Dtos
+namespace CommonYo.Dtos
 {
     public class DirectorySystemDto 
     {
