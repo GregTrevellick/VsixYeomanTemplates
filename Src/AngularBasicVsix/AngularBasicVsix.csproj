@@ -96,6 +96,10 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
+    <ProjectReference Include="..\CommonIdeLauncher\CommonIdeLauncher.csproj">
+      <Project>{e94766fa-5a0f-4abb-b6ca-c456df0b3a7f}</Project>
+      <Name>CommonIdeLauncher</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CommonUi\CommonUi.csproj">
       <Project>{527575a6-03fe-43b3-bc7e-78d6a0fda0ae}</Project>
       <Name>CommonUi</Name>
@@ -105,12 +109,6 @@
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{80198d90-e379-43a1-abb5-36f7d9c509a7}</Project>
       <Name>Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PostGenerationProcessor\CommonIdeLauncher.csproj">
-      <Project>{E94766FA-5A0F-4ABB-B6CA-C456DF0B3A7F}</Project>
-      <Name>CommonIdeLauncher</Name>
-      <IncludeOutputGroupsInVSIX>BuiltProjectOutputGroup%3bBuiltProjectOutputGroupDependencies%3bGetCopyToOutputDirectoryItems%3bSatelliteDllsProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
-      <IncludeOutputGroupsInVSIXLocalOnly>DebugSymbolsProjectOutputGroup%3b</IncludeOutputGroupsInVSIXLocalOnly>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
