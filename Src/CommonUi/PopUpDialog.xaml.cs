@@ -37,28 +37,13 @@ namespace CommonUi
         private void BtnOkay_OnClick(object sender, RoutedEventArgs e)
         {
             _yoProcessor.Generate();
+            Close();
         }
 
         private void BtnCancel_OnClick(object sender, RoutedEventArgs e)
         {
             _yoProcessor.ArchiveRegularProject(_dto.SolutionDirectory, _dto.TempDirectory);
             Close();
-
-            //...from trivial
-            //var parentWindow = Window.GetWindow((DependencyObject)sender);
-            //if (parentWindow != null)
-            //{
-            //    parentWindow.Close();
-            //}
         }
-
-        //private void ButtonClose_OnClick(object sender, RoutedEventArgs e)
-        //{
-        //    var parentWindow = Window.GetWindow((DependencyObject)sender);
-        //    if (parentWindow != null)
-        //    {
-        //        parentWindow.Close();
-        //    }
-        //}
     }
 }
