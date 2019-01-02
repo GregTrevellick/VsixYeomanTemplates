@@ -21,22 +21,16 @@ namespace CommonIdeLauncher
 
         private void LaunchCsprojInIde(string fileToBeOpened)
         {
-            var start = new ProcessStartInfo()//gregt dedupe ?
+            var start = new ProcessStartInfo()
             {
-                //Arguments = args,
                 CreateNoWindow = false,
                 FileName = fileToBeOpened,
-                UseShellExecute = true,//gregt not dedupe
+                UseShellExecute = true,
                 WindowStyle = ProcessWindowStyle.Normal,
             };
 
             //gregt try/catch?
             using (Process.Start(start)) { }
-
-            //ideally we would open the newly generated project in the existing instance of Visual Studio, but the closest I got to this was 
-            //"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe" / edit C:\temp\j2\j2.csproj 
-            //which opens the.csproj file in existing VS instance(not the experimental one), but as a text file not as a project file
-
         }
     }
 }
