@@ -1,10 +1,10 @@
 [GitHubRepoPullRequestsURL]: https://github.com/GregTrevellick/VsixYeomanTemplates/pulls
 
-A Yeoman scaffolded basic Angular.io / TypeScript web application project template for Visual Studio IDE (and Visual Studio Code too), using AspNet Core (C#), WebPack, Gulp, Sass and Yarn (optional).
+A [Yeoman](https://yeoman.io/) scaffolded basic [Angular.io](https://angular.io/) / [TypeScript](https://www.typescriptlang.org/) web application project template for [Visual Studio](https://visualstudio.microsoft.com/vs/) and [VS Code](https://code.visualstudio.com/), using [AspNet Core](https://www.asp.net/) (C#), [WebPack](https://webpack.js.org/), [Gulp](https://gulpjs.com/), [Sass](https://sass-lang.com/) and [Yarn](https://yarnpkg.com) (optional).
 
->##### Based on Matt Jeanes' [Angular Basic](https://github.com/MattJeanes/AngularBasic) project.
+>##### Based on the [Angular Basic](https://github.com/MattJeanes/AngularBasic) project from [Matt Jeanes](https://mattjeanes.com/).
 
-The project is scaffolded out using Yeoman, from within Visual Studio.
+The project is scaffolded out using [Yeoman](https://yeoman.io/) from within Visual Studio.
 
 When you create a new project...
 
@@ -31,7 +31,7 @@ When you create a new project...
 
 ![](screen4.png)
 
-> Please note  a Visual Studio solution file (`.Sln`) will not be automatically created, but when you close Visual Studio you will be prompted to create and save a solution file.
+> Note: A Visual Studio solution file (`.Sln`) is not created when the project is scaffolded. However when you close Visual Studio you will be prompted to create and save a solution file.
 
 If you like this **free** extension please take just a few seconds to give it a rating.
 

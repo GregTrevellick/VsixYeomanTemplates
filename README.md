@@ -53,7 +53,7 @@
 
 <!--BadgesEND-->
 
-A code repo for a series of Visual Studio IDE extensions for project templates that are scaffolded out using Yeoman.
+A code repo for a series of Visual Studio IDE extensions for project templates that are scaffolded out using [Yeoman](https://yeoman.io/).
 
 ## Give a Star! :star:
 If you like or are using this project to learn or start your solution, please give it a star. Thanks!
