@@ -3,9 +3,7 @@ using EnvDTE;
 using Microsoft.VisualStudio.TemplateWizard;
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Windows;
-using SysConf = System.Configuration;
 
 namespace VsixCommonWizard
 {
@@ -15,7 +13,7 @@ namespace VsixCommonWizard
         {
             try
             {
-                var generatorName = GetAppSetting("GeneratorName");
+                var generatorName = ConfigHelper.GetAppSetting("GeneratorName");
                 var popUpDialog = new PopUpDialog(generatorName, replacementsDictionary);
                 popUpDialog.Show();
             }
@@ -23,22 +21,6 @@ namespace VsixCommonWizard
             {
                 MessageBox.Show(ex.ToString());
             }
-        }
-
-        private string GetAppSetting(string appSettingKey)//gregt move to separate file to overcome SysConf namespace collisions
-        {
-            //https://docs.microsoft.com/en-us/dotnet/api/system.configuration.configurationmanager.openmappedexeconfiguration?redirectedfrom=MSDN&view=netframework-4.7.2#overloads
-            //https://stackoverflow.com/questions/505566/loading-custom-configuration-files
-            var assemblyInfo = System.Reflection.Assembly.GetExecutingAssembly();
-            var assemblyLocation = assemblyInfo.Location;
-            var assemblyDirectory = Path.GetDirectoryName(assemblyLocation);
-            var exeConfigurationFileMap = new SysConf.ExeConfigurationFileMap
-            {
-                ExeConfigFilename = assemblyDirectory + @"\App.config"
-            };
-            var configuration = SysConf.ConfigurationManager.OpenMappedExeConfiguration(exeConfigurationFileMap, SysConf.ConfigurationUserLevel.None);
-            var generatorName = configuration.AppSettings.Settings[appSettingKey].Value;
-            return generatorName;
         }
 
         public void BeforeOpeningFile(ProjectItem projectItem)
