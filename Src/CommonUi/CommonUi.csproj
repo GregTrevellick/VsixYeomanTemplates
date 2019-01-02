@@ -72,7 +72,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common\CommonYo.csproj">
+    <ProjectReference Include="..\CommonYo\CommonYo.csproj">
       <Project>{80198D90-E379-43A1-ABB5-36F7D9C509A7}</Project>
       <Name>CommonYo</Name>
     </ProjectReference>
