@@ -42,7 +42,7 @@ namespace CommonYo
             return _fileSystemDto;
         }
 
-        public void Generate()//gregt make async
+        public void Generate()
         {
             GenerateYeomanProject(_directorySystemDto.SolutionDirectoryInfo.Parent.FullName);
         }
@@ -59,7 +59,7 @@ namespace CommonYo
             CreateYoProjectOnDisc(yoBatchFile, args);
         }
 
-        public void ArchiveRegularProject(string solutionDirectory, string tempDirectory)//gregt make async
+        public void ArchiveRegularProject(string solutionDirectory, string tempDirectory)
         {
             ArchiveRegularProject(solutionDirectory, tempDirectory, _solutionDirectoryInfo);
         }

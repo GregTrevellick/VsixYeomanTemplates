@@ -3,6 +3,7 @@ using CommonYo.Dtos;
 using Microsoft.VisualStudio.PlatformUI;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Threading.Tasks;
 using System.Windows;
 
 namespace CommonUi
@@ -38,6 +39,8 @@ namespace CommonUi
         private void BtnOkay_OnClick(object sender, RoutedEventArgs e)
         {
             _yoProcessor.Generate();
+            //gregt get this working async (i.e. dont close & delete regular til new Yo created)
+            //Task.Run(() => _yoProcessor.Generate()).GetAwaiter().GetResult();
             Close();
         }
 
