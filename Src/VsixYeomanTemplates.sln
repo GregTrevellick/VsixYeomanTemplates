@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniSharpAspNetMinimalTempl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniSharpAspNetVsix", "OmniSharpAspNetVsix\OmniSharpAspNetVsix.csproj", "{D5EE42B8-2FDC-498B-95B3-7A06A563A7DF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{8681D234-0ED9-4AF2-802A-3C14A8FF829D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80198D90-E379-43A1-ABB5-36F7D9C509A7} = {8681D234-0ED9-4AF2-802A-3C14A8FF829D}
+		{E94766FA-5A0F-4ABB-B6CA-C456DF0B3A7F} = {8681D234-0ED9-4AF2-802A-3C14A8FF829D}
+		{527575A6-03FE-43B3-BC7E-78D6A0FDA0AE} = {8681D234-0ED9-4AF2-802A-3C14A8FF829D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6FA7BE08-77BD-4903-BB94-2A219BA5FC21}
