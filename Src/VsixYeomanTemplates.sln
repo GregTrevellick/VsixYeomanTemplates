@@ -30,6 +30,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonIdeLauncher", "Common
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonUi", "CommonUi\CommonUi.csproj", "{527575A6-03FE-43B3-BC7E-78D6A0FDA0AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniSharpAspNetMinimalTemplate", "OmniSharpAspNetMinimalTemplate\OmniSharpAspNetMinimalTemplate.csproj", "{D92D7F20-CA07-43F1-BDD5-D8AA44D6DC0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniSharpAspNetVsix", "OmniSharpAspNetVsix\OmniSharpAspNetVsix.csproj", "{D5EE42B8-2FDC-498B-95B3-7A06A563A7DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +60,14 @@ Global
 		{527575A6-03FE-43B3-BC7E-78D6A0FDA0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{527575A6-03FE-43B3-BC7E-78D6A0FDA0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{527575A6-03FE-43B3-BC7E-78D6A0FDA0AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92D7F20-CA07-43F1-BDD5-D8AA44D6DC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92D7F20-CA07-43F1-BDD5-D8AA44D6DC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92D7F20-CA07-43F1-BDD5-D8AA44D6DC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92D7F20-CA07-43F1-BDD5-D8AA44D6DC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5EE42B8-2FDC-498B-95B3-7A06A563A7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5EE42B8-2FDC-498B-95B3-7A06A563A7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5EE42B8-2FDC-498B-95B3-7A06A563A7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5EE42B8-2FDC-498B-95B3-7A06A563A7DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
