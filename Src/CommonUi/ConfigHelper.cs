@@ -36,7 +36,19 @@ namespace CommonUi
             //if confighelper.cs was in the vsix itself the GetExecutingAssembly() will get the angbas.dll or omni.dll so in theory will pick up correct app.config
             //
             //the reason commonui.dll is used over ang-bas.dll / omni.dll in GetExecutingAssembly() is cos the 2 .vstemplate files directly cause commonui.dll to be run, and by definition as microsoft website commonui.dll gets installed in GAC !!!
-            //this means the only way to fix the issue is to have DIFFERENTLY NAMED ASSEMBLIES IN THE .VSTEMPLATE FILES
+            //this means the only way to fix the issue is 
+            // -to have DIFFERENTLY NAMED ASSEMBLIES IN THE .VSTEMPLATE FILES
+            // -force the directory name (via ctor param) rather than GetExecutingAssembly() - but we need to know ang-bas is in full with spaces, and we can't be 100% certain of that forever so FORGET THIS OPTION, GO WITH THE ONE ABOVE
+            // -we can't use diff classes or namespaces in same commonui.dll as the dll is still shared in GAC
+            //
+            //so we need to 
+            // -move confighelper.cs into a CommonConfig project
+            // -create CommonConfigAngBas.dll which references CommonConfig
+            // -create CommonConfigOmni.dll which references CommonConfig.
+            // -set the .vstemplate files to use their respective CommonConfigXxxxx.dll
+            // -remove reference to commonui.dll from the vsix projects 
+            // -set vsix projects to reference their respective CommonConfigXxxxx.dll
+            //
 
             var assemblyDirectory = Path.GetDirectoryName(assemblyLocation);
 
