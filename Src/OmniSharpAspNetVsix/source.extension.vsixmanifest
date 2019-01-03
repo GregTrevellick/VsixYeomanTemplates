@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="C8C94E0A-55BA-40D5-8033-4AA25ADE8D4F" Version="1.0.1" Language="en-US" Publisher="Greg Trevellick" />
+        <DisplayName>AspNet Project Template</DisplayName>
+        <Description xml:space="preserve">A Yeoman scaffolded aspnet project template for Visual Studio.</Description>
+        <MoreInfo>https://github.com/GregTrevellick/VsixYeomanTemplate</MoreInfo>
+        <License>LICENSE.txt</License>
+        <GettingStartedGuide>https://github.com/omnisharp/generator-aspnet</GettingStartedGuide>
+        <ReleaseNotes>https://github.com/GregTrevellick/VsixYeomanTemplate/blob/master/CHANGELOG.md</ReleaseNotes>
+        <Icon>Resources\VsixExtensionPreview_90x90.png</Icon>
+        <PreviewImage>Resources\VsixExtensionPreview_175x175.png</PreviewImage>
+        <Tags>aspnet, yeoman, generator, template</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />
+        <!--<InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[15.0,17.0)" />-->
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="OmniSharpAspNetMinimalTemplate" d:TargetPath="|OmniSharpAspNetMinimalTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+        <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="CommonUi" Path="|CommonUi|" AssemblyName="|CommonUi;AssemblyName|" />
+        <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="CommonIdeLauncher" Path="|CommonIdeLauncher|" AssemblyName="|CommonIdeLauncher;AssemblyName|" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
