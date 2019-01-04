@@ -20,8 +20,8 @@ namespace CommonUi
             };
             var configuration = ConfigurationManager.OpenMappedExeConfiguration(exeConfigurationFileMap, ConfigurationUserLevel.None);
 
-            var generatorName = configuration.AppSettings.Settings[appSettingKey].Value;
-            return generatorName;
+            var appSettingValue = configuration.AppSettings.Settings[appSettingKey].Value;
+            return appSettingValue;
         }
     }
 }
