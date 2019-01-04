@@ -22,7 +22,7 @@
     -->
   </TemplateContent>
   <WizardExtension>  
-    <Assembly>CommonUi, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=1b3176fd3417dc05</Assembly>  
+    <Assembly>OmniSharpAspNetVsix, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=9023ac237de2c585</Assembly>  
     <FullClassName>VsixCommonWizard.WizardImplementation</FullClassName>  
   </WizardExtension>  
 </VSTemplate>
