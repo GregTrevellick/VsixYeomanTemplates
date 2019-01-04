@@ -30,6 +30,7 @@ namespace CommonUi
             HasMaximizeButton = true;
             HasMinimizeButton = true;
             ResizeMode = ResizeMode.CanResize;
+            //SetWindowIcon(this);
             SizeToContent = SizeToContent.WidthAndHeight;
             Title = _generatorName;
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
@@ -58,3 +59,19 @@ namespace CommonUi
         }
     }
 }
+
+//using System;
+//using System.Windows.Media.Imaging;
+//private void SetWindowIcon(DialogWindow window)
+//{
+//    var iconUri = GetIconUri();
+//    window.Icon = new BitmapImage(iconUri);
+//}
+//private Uri GetIconUri()
+//{
+//    //var assemblyInfo = System.Reflection.Assembly.GetExecutingAssembly();
+//    //var assemblyName = assemblyInfo.FullName;
+//    var assemblyName = "CommonUi";
+//    var packUri = $"pack://application:,,,/{assemblyName};component/vsixextensionicon_90x90_resource_bb6_icon.ico";
+//    return new Uri(packUri, UriKind.RelativeOrAbsolute);
+//}
