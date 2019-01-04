@@ -41,6 +41,10 @@ namespace CommonUi
             // -force the directory name (via ctor param) rather than GetExecutingAssembly() - but we need to know ang-bas is in full with spaces, and we can't be 100% certain of that forever so FORGET THIS OPTION, GO WITH THE ONE ABOVE
             // -we can't use diff classes or namespaces in same commonui.dll as the dll is still shared in GAC
             // -we can't use settings.settings as these are referred to in the app.config file itself anyway
+            // -cant alter vsixes to deploy the vsix dll, as GetExecutingAssembly() will still find commonui.dll
+            // -cant pass genname to wizard as ide passes 'customParams' and we can only add to 'replacementsDictionary' not supply it
+            // -MOVE WizardImplementation.CS TO THE VSIX PROJECTS THEMSELVES (where they first started)
+            //
             //
             //so we need to 
             // -move confighelper.cs into a CommonConfig project
