@@ -48,7 +48,7 @@ namespace CommonUi
             //
             //
             //so we need to 
-            // -MOVE WizardImplementation.CS directly TO THE VSIX PROJECTS THEMSELVES (where they first started)
+            // -MOVE WizardImplementation.CS and/or ConfigHelper.cs directly TO THE VSIX PROJECTS THEMSELVES (where they first started)
             //OR
             // -move confighelper.cs into a CommonConfig project
             // -create CommonConfigAngBas.dll which references CommonConfig
