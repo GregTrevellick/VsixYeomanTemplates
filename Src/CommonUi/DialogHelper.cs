@@ -8,27 +8,18 @@ namespace CommonUi
 
         public static string GetLabelText(string solutionDirectory, string tempDirectory, string generatorName, string regularProjectName)
         {
-            return 
-                $"The following will happen:{Environment.NewLine}" +
+            return
+                $"Click {Ok} to perform the following:{Environment.NewLine}" +
                 $"{Environment.NewLine}" +
-                $" - A new project called {regularProjectName} will be created at {solutionDirectory}{Environment.NewLine}" +
+                $" - Create empty project '{regularProjectName}' at '{solutionDirectory}'{Environment.NewLine}" +
                 $"{Environment.NewLine}" +
-                $" - A command prompt window will open and run the following commands{Environment.NewLine}" +
+                $" - Run the command 'npm install -g yo generator-{generatorName}' to install the Yeoman generator{Environment.NewLine}" +
                 $"{Environment.NewLine}" +
-                $"      npm install -g yo generator-{generatorName}{Environment.NewLine}" +
+                $" - Run the command 'yo {generatorName}' to scaffold the Yeoman project{Environment.NewLine}" +
                 $"{Environment.NewLine}" +
-                $"      yo {generatorName}{Environment.NewLine}" +
+                $" - Open the {generatorName} .csproj file in a new instance of it's default program (typically Visual Studio){Environment.NewLine}" +
                 $"{Environment.NewLine}" +
-                $"   (this will scaffold your new project locally){Environment.NewLine}" +
-                $"{Environment.NewLine}" +
-                $" - The newly generated {generatorName} project will be launched in a new instance of Visual Studio{Environment.NewLine}" +
-                $"{Environment.NewLine}" +
-                $" - The {regularProjectName} project (nothing more than an empty folder) will be moved{Environment.NewLine}" +
-                $"{Environment.NewLine}" +
-                $"        from    {solutionDirectory}{Environment.NewLine}" +
-                $"{Environment.NewLine}" +
-                $"        to       {tempDirectory} (with a unique date/time identifier suffix){Environment.NewLine} " +
-                $"{Environment.NewLine}Click {Ok} to proceed.";
+                $" - Move '{regularProjectName}' to '{tempDirectory}'{Environment.NewLine} ";
         }
     }
 }
