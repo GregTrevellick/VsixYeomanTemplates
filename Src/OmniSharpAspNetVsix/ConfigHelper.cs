@@ -12,6 +12,7 @@ namespace CommonUi
 
             var assemblyInfo = System.Reflection.Assembly.GetExecutingAssembly();
             var assemblyLocation = assemblyInfo.Location;
+
             //
             //gregt tempry comment
             //
@@ -67,6 +68,9 @@ namespace CommonUi
             var configuration = SysConf.ConfigurationManager.OpenMappedExeConfiguration(exeConfigurationFileMap, SysConf.ConfigurationUserLevel.None);
 
             var generatorName = configuration.AppSettings.Settings[appSettingKey].Value;
+
+
+  //         var generatorName = SysConf.ConfigurationSettings.AppSettings.Get(appSettingKey);
             return generatorName;
         }
     }
