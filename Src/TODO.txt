@@ -11,12 +11,15 @@ SIGNING
 
 TODOs
 =====
-1. check badges
-2. YAY
+gregt
+e2e test
+check badges
+template category ? tags ? add Topics within github website (only when production ready)
+
+97. 
 Aa2.sln https://github.com/sgbj/generator-aspnetcore-angular2
 Vnc1.sln https://github.com/vue-typed/generator-vue-net-core
 toucan https://github.com/mrellipse/toucan
-3. template category ? tags ? add Topics within github website (only when production ready)
 98. publish HelloWorldVsixProjectTemplateWizard example vsix
 99. NOT YET - make it work for vs2019
 
