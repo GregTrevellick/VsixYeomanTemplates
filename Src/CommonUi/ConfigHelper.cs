@@ -43,12 +43,11 @@ namespace CommonUi
             // -we can't use settings.settings as these are referred to in the app.config file itself anyway
             // -cant alter vsixes to deploy the vsix dll, as GetExecutingAssembly() will still find commonui.dll
             // -cant pass genname to wizard as ide passes 'customParams' and we can only add to 'replacementsDictionary' not supply it
+            // -cant WizardImplementation.CS as SHORTCUT to the v6 projects as GetExecutingAssembly() will still find commonui.dll
             //
             //
             //
             //so we need to 
-            // -MOVE WizardImplementation.CS as shortcut TO THE VSIX PROJECTS THEMSELVES (where they first started)
-            //OR
             // -MOVE WizardImplementation.CS directly TO THE VSIX PROJECTS THEMSELVES (where they first started)
             //OR
             // -move confighelper.cs into a CommonConfig project
