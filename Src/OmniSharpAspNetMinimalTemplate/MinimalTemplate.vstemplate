@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <DefaultName>NotApplicable</DefaultName>
+    <Description>A Yeoman scaffolded project for ASP.NET Core.</Description>
+    <Icon>MinimalTemplate.ico</Icon>
+    <Name>AspNet</Name>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>NetCore</ProjectSubType>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>3c7d6729-cbe5-44cc-9304-dedc0e2ba782</TemplateID>
+    <EnableLocationBrowseButton>false</EnableLocationBrowseButton>
+    <LocationField>Disabled</LocationField>
+  </TemplateData>
+  <TemplateContent>
+    <!--
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Class1.cs</ProjectItem>
+    </Project>
+    -->
+  </TemplateContent>
+  <WizardExtension>  
+    <Assembly>CommonUi, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=1b3176fd3417dc05</Assembly>  
+    <FullClassName>VsixCommonWizard.WizardImplementation</FullClassName>  
+  </WizardExtension>  
+</VSTemplate>
