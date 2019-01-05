@@ -11,12 +11,12 @@ SIGNING
 
 TODOs
 =====
-gregt
+matt logo
+gregt / e2e test
+template category
 screen shots
-e2e test
-template category ? tags ? add Topics within github website (only when production ready)
-codebeat doesnt support c# yet
 
+95. readmesycnchronizer - codebeat doesnt support c# yet - exclude for vsixyeomantemplates
 96. check badges statuses
 97. 
 Aa2.sln https://github.com/sgbj/generator-aspnetcore-angular2
