@@ -14,7 +14,6 @@ TODOs
 screen0.png omni
 screen3.png omni
 screen4.png omni
-screen1.png angbas
 screen1.png omni
 
 e2e test (gregt)
