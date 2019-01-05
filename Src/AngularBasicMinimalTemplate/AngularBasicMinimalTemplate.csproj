@@ -52,6 +52,7 @@
   <ItemGroup>
     <VSTemplate Include="MinimalTemplate.vstemplate">
       <SubType>Designer</SubType>
+      <OutputSubPath>Web</OutputSubPath>
     </VSTemplate>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

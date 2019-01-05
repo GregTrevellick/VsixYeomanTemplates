@@ -6,10 +6,14 @@
     <Icon>MinimalTemplate.ico</Icon>
     <Name>Angular Basic</Name>
     <ProjectType>CSharp</ProjectType>
-    <ProjectSubType>Angular</ProjectSubType>
+    <ProjectSubType>Web</ProjectSubType>
+    <!--<PreviewImage>MinimalTemplate.ico</PreviewImage>-->
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <ProvideDefaultName>true</ProvideDefaultName>
     <SortOrder>1000</SortOrder>
     <TemplateID>32A69FEB-1F72-474D-9BB7-D3609CB30C98</TemplateID>
+    <!--<TemplateGroupID>AspNetCore</TemplateGroupID>-->
+    <!--<ShowByDefault>false</ShowByDefault>--><!--true(default)=will be displayed for all project types. false=will only be displayed under the specified TemplateGroupID.-->
     <EnableLocationBrowseButton>false</EnableLocationBrowseButton>
     <LocationField>Disabled</LocationField>
     <!--Omitting 'RequiredFrameworkVersion' avoids user being prompted for framework version nbr-->
