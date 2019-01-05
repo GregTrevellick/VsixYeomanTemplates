@@ -11,20 +11,18 @@ SIGNING
 
 TODOs
 =====
-descriptions in json/manifest/template/markdown files
-gregt / e2e test
-template category
 screen shots
-readmes:  Give a Star! :star:
+gregt / e2e test
+template category ?
+tags - add nancy, sass, yarn, f#, etc ?
 
-92. PR for steve ardalis
-93. PR for matt/omni team
-94. readmesycnchronizer - Give a Star! :star:
+93. PR for steve ardalis
+94. PR for matt/omni team
 95. readmesycnchronizer - codebeat doesnt support c# yet - exclude for vsixyeomantemplates
 96. check badges statuses
-97. Aa2.sln https://github.com/sgbj/generator-aspnetcore-angular2
+97. toucan https://github.com/mrellipse/toucan
+    Aa2.sln https://github.com/sgbj/generator-aspnetcore-angular2
     Vnc1.sln https://github.com/vue-typed/generator-vue-net-core
-    toucan https://github.com/mrellipse/toucan
 98. publish HelloWorldVsixProjectTemplateWizard example vsix
 99. NOT YET - make it work for vs2019
 
