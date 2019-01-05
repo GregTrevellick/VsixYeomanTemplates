@@ -12,7 +12,6 @@ SIGNING
 TODOs
 =====
 screen1.png omni
-ang-bas 200x200.ong
 gif for angular-basic
 classify as a 'template' in vsmp search
 e2e test (gregt)
