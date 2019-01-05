@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
+    <!--<PreviewImage>MinimalTemplate.ico</PreviewImage>-->
+    <!--<ShowByDefault>false</ShowByDefault>--><!--true(default)=will be displayed for all project types. false=will only be displayed under the specified TemplateGroupID.-->
+    <!--<TemplateGroupID>AspNetCore</TemplateGroupID>-->
     <DefaultName>NotApplicable</DefaultName>
     <Description>A Yeoman scaffolded basic Angular.io / TypeScript web application, using AspNet Core (C#), WebPack, Gulp, Sass and Yarn (optional).</Description>
+    <EnableLocationBrowseButton>false</EnableLocationBrowseButton>
     <Icon>MinimalTemplate.ico</Icon>
+    <LocationField>Disabled</LocationField>
     <Name>Angular Basic</Name>
-    <ProjectType>CSharp</ProjectType>
-    <ProjectSubType>Web</ProjectSubType>
-    <!--<PreviewImage>MinimalTemplate.ico</PreviewImage>-->
     <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+    <ProjectSubType>Web</ProjectSubType>
+    <ProjectType>CSharp</ProjectType>
     <ProvideDefaultName>true</ProvideDefaultName>
     <SortOrder>1000</SortOrder>
     <TemplateID>32A69FEB-1F72-474D-9BB7-D3609CB30C98</TemplateID>
-    <!--<TemplateGroupID>AspNetCore</TemplateGroupID>-->
-    <!--<ShowByDefault>false</ShowByDefault>--><!--true(default)=will be displayed for all project types. false=will only be displayed under the specified TemplateGroupID.-->
-    <EnableLocationBrowseButton>false</EnableLocationBrowseButton>
-    <LocationField>Disabled</LocationField>
     <!--Omitting 'RequiredFrameworkVersion' avoids user being prompted for framework version nbr-->
     <!--<RequiredFrameworkVersion>2.1</RequiredFrameworkVersion> value must be integer, and this is valid, but results in user being prompted for framework version nbr-->
     <!--<RequiredFrameworkVersion>netcoreapp2.1</RequiredFrameworkVersion> 'netcoreapp2.1' is taken from 'netcoreapp2.1' in matt's csproj; value must be integer, and this is INvalid, but avoids user being prompted for framework version nbr-->
