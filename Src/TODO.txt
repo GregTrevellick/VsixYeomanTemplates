@@ -13,6 +13,8 @@ TODOs
 =====
 screen1.png omni
 gif for angular-basic
+tags
+categories
 classify as a 'template' in vsmp search
 e2e test (gregt)
 
