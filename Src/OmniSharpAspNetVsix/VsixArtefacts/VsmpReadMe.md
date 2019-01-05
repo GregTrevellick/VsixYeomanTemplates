@@ -31,9 +31,6 @@ When you create a new project...
 
 ![](screen4.png)
 
-
-[![](https://cloud.githubusercontent.com/assets/14539/22796181/ac68db70-eef9-11e6-8c85-53215e7c1acc.gif)](https://github.com/OmniSharp/generator-aspnet 'ASP.NET Core Generator')
-
 > Note: A Visual Studio solution file (`.Sln`) is not created when the project is scaffolded. However when you close Visual Studio you will be prompted to create and save a solution file.
 
 If you like this **free** extension please take just a few seconds to give it a rating.
