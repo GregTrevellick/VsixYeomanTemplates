@@ -62,7 +62,7 @@ If you like or are using this project to learn or start your solution, please gi
 
 [Matt Jeanes](https://github.com/MattJeanes/AngularBasic)
 
-[OmniSharp Team](https://github.com/OmniSharp/generator-aspnet)
+[OmniSharp](https://github.com/OmniSharp/generator-aspnet)
 
 ## License
 
