@@ -18,12 +18,6 @@
     <TemplateID>3c7d6729-cbe5-44cc-9304-dedc0e2ba782</TemplateID>
   </TemplateData>
   <TemplateContent>
-    <!--
-    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Class1.cs</ProjectItem>
-    </Project>
-    -->
     <!--gregt
     <CustomParameters>
       <CustomParameter Name="$language$" Value="CSharp" />

@@ -16,16 +16,15 @@
     <ProvideDefaultName>true</ProvideDefaultName>
     <SortOrder>1000</SortOrder>
     <TemplateID>32A69FEB-1F72-474D-9BB7-D3609CB30C98</TemplateID>
-    <!--Omitting 'RequiredFrameworkVersion' avoids user being prompted for framework version nbr-->
-    <!--<RequiredFrameworkVersion>2.1</RequiredFrameworkVersion> value must be integer, and this is valid, but results in user being prompted for framework version nbr-->
-    <!--<RequiredFrameworkVersion>netcoreapp2.1</RequiredFrameworkVersion> 'netcoreapp2.1' is taken from 'netcoreapp2.1' in matt's csproj; value must be integer, and this is INvalid, but avoids user being prompted for framework version nbr-->
   </TemplateData>
   <TemplateContent>
-    <!--
-    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Class1.cs</ProjectItem>
-    </Project>
+    <!--gregt
+    <CustomParameters>
+      <CustomParameter Name="$language$" Value="CSharp" />
+      <CustomParameter Name="$uistyle$" Value="none"/>
+      <CustomParameter Name="$groupid$" Value="SideWafflev2.TemplatePackProject" />
+      <CustomParameter Name="SideWaffleNewProjNode" Value="CSharp\Extensibility\Gregt\SideWaffle"/>
+    </CustomParameters>
     -->
   </TemplateContent>
   <WizardExtension>  
