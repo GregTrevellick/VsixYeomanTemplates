@@ -10,16 +10,16 @@ When you create a new project...
 
 ![](screen0.png)
 
-...a dialog appears informing you what will happen and prompting your confirmation...
+...a dialog appears explaining what will happen...
 
 ![](screen1.png)
 
-...when you click 'OK' a command prompt is opened to scaffold the new project using Yeoman...
+...a command prompt is opened to scaffold the new project using Yeoman...
  
- - Node will install the angular-basic Yeoman generator via command `npm install -g yo angular-basic`
+ - Node will install the [Angular Basic Yeoman generator](https://github.com/MattJeanes/AngularBasic) via command `npm install -g yo angular-basic`
  - Yeoman will prompt you for personalisation and custom options for the new project (red border) via command `yo angular-basic`
- - Within seconds Yeoman will create the new project on your hard drive (purple border)
- - Yeoman will automatically download any necessary dependancies (e.g. into `node_modules` folder)
+ - Yeoman will create the new project on your machine (purple border)
+ - Yeoman will automatically download any dependancies (e.g. into `node_modules` folder)
 
 ![](screen2.png)
 

@@ -10,26 +10,20 @@ When you create a new project...
 
 ![](screen0.png)
 
-...a dialog appears informing you what will happen and prompting your confirmation...
+...a dialog appears explaining what will happen...
 
 ![](screen1.png)
 
-...when you click 'OK' a command prompt is opened to scaffold the new project using Yeoman...
- 
- - Node will install the angular-basic Yeoman generator via command `npm install -g yo aspnet`
- - Yeoman will prompt you for personalisation and custom options for the new project (red border) via command `yo aspnet`
- - Within seconds Yeoman will create the new project on your hard drive (purple border)
- - Yeoman will automatically download any necessary dependancies (e.g. into `node_modules` folder)
+...a command prompt is opened to scaffold the new project using Yeoman...
+
+ - Node will install the [AspNet Yeoman generator](https://github.com/omnisharp/generator-aspnet) via command `npm install -g yo aspnet`
+ - Yeoman will prompt you for personalisation and custom options for the new project via command `yo aspnet`
+ - Yeoman will create the new project on your machine
+ - Yeoman will automatically download any dependancies (e.g. into `node_modules` folder)
 
 ![](screen2.gif)
 
-...the new project will be opened in a new instance of Visual Studio, and here's what you get...
-
-![](screen3.png)
-
-...and upon build/run ('F5' in Visual Studio) this is the resultant website application...
-
-![](screen4.png)
+...the new project will be opened in a new instance of Visual Studio.
 
 > Note: A Visual Studio solution file (`.Sln`) is not created when the project is scaffolded. However when you close Visual Studio you will be prompted to create and save a solution file.
 
