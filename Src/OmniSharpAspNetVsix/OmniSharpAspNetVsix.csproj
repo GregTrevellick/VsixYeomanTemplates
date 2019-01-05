@@ -66,6 +66,7 @@
       <Link>yo.bat</Link>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Resources\ac68db70-eef9-11e6-8c85-53215e7c1acc.gif" />
     <Content Include="Resources\screen0.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
