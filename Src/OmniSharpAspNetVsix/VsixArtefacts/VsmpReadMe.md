@@ -32,7 +32,3 @@ If you like this **free** extension please take just a few seconds to give it a 
 Contributions welcome [here][GitHubRepoPullRequestsURL].
 
 See the [change log](https://github.com/GregTrevellick/VsixYeomanTemplates/blob/master/CHANGELOG.md) for release history.
-
-### Road map
-
-- [ ] VS2019 support - yay !
