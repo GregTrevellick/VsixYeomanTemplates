@@ -100,3 +100,43 @@ rem https://stackoverflow.com/questions/10544646/dir-output-into-bat-array
 
 rem Open the last .csproj in "array" which is the .csproj file we just created (ideally we would open the newly generated project in the existing instance of Visual Studio, but the closest I got to this was "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe" /edit C:\temp\j2\j2.csproj which opens the .csproj file in existing VS instance (not the experimental one), but as a text file not as a project file)
 :: !folder%folderCnt%!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <TemplateData>
+    <!--<ShowByDefault>false</ShowByDefault>--><!--true(default)=will be displayed for all project types. false=will only be displayed under the specified TemplateGroupID.-->
+     <!--Omitting 'RequiredFrameworkVersion' avoids user being prompted for framework version nbr-->
+    <!--<RequiredFrameworkVersion>2.1</RequiredFrameworkVersion> value must be integer, and this is valid, but results in user being prompted for framework version nbr-->
+    <!--<RequiredFrameworkVersion>netcoreapp2.1</RequiredFrameworkVersion> 'netcoreapp2.1' is taken from 'netcoreapp2.1' in matt's csproj; value must be integer, and this is INvalid, but avoids user being prompted for framework version nbr-->
+  </TemplateData>
+  <TemplateContent>
+    <!--
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Class1.cs</ProjectItem>
+    </Project>
+    -->
+  </TemplateContent>
+
+
