@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <!--<PreviewImage>MinimalTemplate.ico</PreviewImage>-->
     <!--<ShowByDefault>false</ShowByDefault>--><!--true(default)=will be displayed for all project types. false=will only be displayed under the specified TemplateGroupID.-->
     <!--<TemplateGroupID>AspNetCore</TemplateGroupID>-->
     <DefaultName>NotApplicable</DefaultName>
@@ -11,6 +10,7 @@
     <LocationField>Disabled</LocationField>
     <Name>Angular Basic</Name>
     <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+    <PreviewImage>VsixExtensionPreview_200x200.png</PreviewImage>
     <ProjectSubType>Web</ProjectSubType>
     <ProjectType>CSharp</ProjectType>
     <ProvideDefaultName>true</ProvideDefaultName>
