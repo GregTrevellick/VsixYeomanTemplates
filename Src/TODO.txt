@@ -17,8 +17,10 @@ screen4.png omni
 screen1.png angbas
 screen1.png omni
 
-gregt / e2e test
+e2e test (gregt)
+
 template category ?
+
 tags - add nancy, sass, yarn, f#, etc ?
 
 93. PR for steve ardalis
