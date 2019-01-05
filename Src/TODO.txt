@@ -11,7 +11,12 @@ SIGNING
 
 TODOs
 =====
-screen shots
+screen0.png omni
+screen3.png omni
+screen4.png omni
+screen1.png angbas
+screen1.png omni
+
 gregt / e2e test
 template category ?
 tags - add nancy, sass, yarn, f#, etc ?

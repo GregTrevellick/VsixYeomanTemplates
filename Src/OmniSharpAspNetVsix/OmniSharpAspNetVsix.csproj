@@ -66,12 +66,12 @@
       <Link>yo.bat</Link>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Resources\screen2.gif" />
     <Content Include="Resources\ac68db70-eef9-11e6-8c85-53215e7c1acc.gif" />
     <Content Include="Resources\screen0.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Resources\screen1.png" />
-    <Content Include="Resources\screen2.png" />
     <Content Include="Resources\screen3.png" />
     <Content Include="Resources\screen4.png" />
     <Content Include="Resources\VsixExtensionPreview_175x175.png">

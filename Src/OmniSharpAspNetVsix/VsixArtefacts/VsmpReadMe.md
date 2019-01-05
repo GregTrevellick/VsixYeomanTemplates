@@ -21,7 +21,7 @@ When you create a new project...
  - Within seconds Yeoman will create the new project on your hard drive (purple border)
  - Yeoman will automatically download any necessary dependancies (e.g. into `node_modules` folder)
 
-![](screen2.png)
+![](screen2.gif)
 
 ...the new project will be opened in a new instance of Visual Studio, and here's what you get...
 

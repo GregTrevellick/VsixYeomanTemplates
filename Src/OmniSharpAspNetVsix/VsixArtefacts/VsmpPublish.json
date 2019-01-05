@@ -10,8 +10,8 @@
       "targetPath": "screen1.png"
     },
     {
-      "pathOnDisk": "..\\Resources\\screen2.png",
-      "targetPath": "screen2.png"
+      "pathOnDisk": "..\\Resources\\screen2.gif",
+      "targetPath": "screen2.gif"
     },
     {
       "pathOnDisk": "..\\Resources\\screen3.png",
