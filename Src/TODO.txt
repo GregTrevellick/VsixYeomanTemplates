@@ -12,9 +12,9 @@ SIGNING
 TODOs
 =====
 screen1.png omni
+gif for angular-basic
 e2e test (gregt)
 template category in new project dialog
-tags - add nancy, sass, yarn, f#
 
 
 93. PR for steve ardalis
