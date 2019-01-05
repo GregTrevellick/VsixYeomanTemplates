@@ -12,17 +12,7 @@
     {
       "pathOnDisk": "..\\Resources\\screen2.gif",
       "targetPath": "screen2.gif"
-    },
-    {
-      "pathOnDisk": "..\\Resources\\screen3.png",
-      "targetPath": "screen3.png"
-    },
-
-    {
-      "pathOnDisk": "..\\Resources\\screen4.png",
-      "targetPath": "screen4.png"
     }
-
   ],
   "categories": [   
     "ajax"
