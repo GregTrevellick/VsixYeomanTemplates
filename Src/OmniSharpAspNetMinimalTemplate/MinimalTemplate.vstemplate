@@ -2,7 +2,7 @@
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
     <DefaultName>NotApplicable</DefaultName>
-    <Description>A Yeoman scaffolded project for ASP.NET Core.</Description>
+    <Description>A collection of Yeoman scaffolded web / console/ class library / unit test projects using ASP.NET Core. Optionally also using MVC, WebAPI, Nancy, MS Test, Xunit, C#, F#, bootstrap, semantic.</Description>
     <Icon>MinimalTemplate.ico</Icon>
     <Name>OmniSharp AspNet</Name>
     <ProjectType>CSharp</ProjectType>

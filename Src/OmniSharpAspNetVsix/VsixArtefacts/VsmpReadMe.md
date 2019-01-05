@@ -1,6 +1,6 @@
 [GitHubRepoPullRequestsURL]: https://github.com/GregTrevellick/VsixYeomanTemplates/pulls
 
-A basic [Angular.io](https://angular.io/) / [TypeScript](https://www.typescriptlang.org/) web application project template for [Visual Studio](https://visualstudio.microsoft.com/vs/) and [VS Code](https://code.visualstudio.com/).
+A collection of [Yeoman](https://yeoman.io/) scaffolded web / console/ class library / unit test projects using [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/). Optionally also using MVC, WebAPI, [Nancy](http://nancyfx.org/), MS Test, [Xunit](https://xunit.github.io/), [C#](https://docs.microsoft.com/en-us/dotnet/csharp/), [F#](https://fsharp.org/), [bootstrap](https://getbootstrap.com/), [semantic](https://semantic-ui.com/).
 
 >##### Based on the [AspNet](https://github.com/omnisharp/generator-aspnet) project from [OmniSharp](http://www.omnisharp.net/).
 
@@ -30,6 +30,9 @@ When you create a new project...
 ...and upon build/run ('F5' in Visual Studio) this is the resultant website application...
 
 ![](screen4.png)
+
+
+[![](https://cloud.githubusercontent.com/assets/14539/22796181/ac68db70-eef9-11e6-8c85-53215e7c1acc.gif)](https://github.com/OmniSharp/generator-aspnet 'ASP.NET Core Generator')
 
 > Note: A Visual Studio solution file (`.Sln`) is not created when the project is scaffolded. However when you close Visual Studio you will be prompted to create and save a solution file.
 
