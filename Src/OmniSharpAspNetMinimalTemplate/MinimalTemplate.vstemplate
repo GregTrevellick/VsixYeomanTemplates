@@ -20,6 +20,14 @@
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">Class1.cs</ProjectItem>
     </Project>
     -->
+    <!--gregt
+    <CustomParameters>
+      <CustomParameter Name="$language$" Value="CSharp" />
+      <CustomParameter Name="$uistyle$" Value="none"/>
+      <CustomParameter Name="$groupid$" Value="SideWafflev2.TemplatePackProject" />
+      <CustomParameter Name="SideWaffleNewProjNode" Value="CSharp\Extensibility\Gregt\SideWaffle"/>
+    </CustomParameters>
+    -->
   </TemplateContent>
   <WizardExtension>  
     <Assembly>OmniSharpAspNetVsix, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=9023ac237de2c585</Assembly>  
