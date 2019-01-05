@@ -12,12 +12,10 @@ SIGNING
 TODOs
 =====
 screen1.png omni
-
 e2e test (gregt)
+template category in new project dialog
+tags - add nancy, sass, yarn, f#
 
-template category ?
-
-tags - add nancy, sass, yarn, f#, etc ?
 
 93. PR for steve ardalis
 94. PR for matt/omni team
