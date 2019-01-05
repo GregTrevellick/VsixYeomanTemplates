@@ -12,10 +12,12 @@ SIGNING
 TODOs
 =====
 gregt
+screen shots
 e2e test
-check badges
 template category ? tags ? add Topics within github website (only when production ready)
+codebeat doesnt support c# yet
 
+96. check badges statuses
 97. 
 Aa2.sln https://github.com/sgbj/generator-aspnetcore-angular2
 Vnc1.sln https://github.com/vue-typed/generator-vue-net-core
