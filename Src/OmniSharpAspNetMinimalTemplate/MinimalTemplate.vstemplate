@@ -4,7 +4,7 @@
     <DefaultName>NotApplicable</DefaultName>
     <Description>A Yeoman scaffolded project for ASP.NET Core.</Description>
     <Icon>MinimalTemplate.ico</Icon>
-    <Name>AspNet</Name>
+    <Name>OmniSharp AspNet</Name>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>NetCore</ProjectSubType>
     <ProvideDefaultName>true</ProvideDefaultName>
