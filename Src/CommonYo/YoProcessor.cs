@@ -104,50 +104,7 @@ namespace CommonYo
             };
 
             // No need for a try/catch here - any exceptions are caught by the calling UserForm and displayed in the dialog to user
-            using (Process exeProcess = Process.Start(processStartInfo))
-            {
-                exeProcess.WaitForExit();
-            }
-
-
-
-//gregt
-
-            //// Open wordpad.
-            //var process = new Process
-            //{
-            //    StartInfo = processStartInfo
-            //};
-            //process.Start();
-            //// Wait for wordpad to finish.
-            //process.WaitForExit();
-
-
-
-            ////Start the process.
-            //var process = Process.Start(processStartInfo);
-            ////Wait for window to finish loading.
-            //process.WaitForInputIdle();
-            ////Wait for the process to exit or time out.
-            //process.WaitForExit(123456789);
-            ////Check to see if the process is still running.
-            //if (process.HasExited == false)
-            //{
-            //    //Process is still running.
-            //    //Test to see if the process is hung up.
-            //    if (process.Responding)
-            //    {
-            //        //Process was responding; close the main window.
-            //        process.CloseMainWindow();
-            //    }
-            //    else
-            //    {
-            //        //Process was not responding; force the process to close.
-            //        process.Kill();
-            //    }
-            //}   
-            //MessageBox.Show("Code continuing...");
-
+            using (var process = Process.Start(processStartInfo)) { }
         }
     }
 }

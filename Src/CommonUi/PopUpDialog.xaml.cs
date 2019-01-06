@@ -1,6 +1,7 @@
 ﻿using CommonYo;
 using CommonYo.Dtos;
 using Microsoft.VisualStudio.PlatformUI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Windows;
@@ -37,7 +38,16 @@ namespace CommonUi
 
         private void BtnOkay_OnClick(object sender, RoutedEventArgs e)
         {
-            _yoProcessor.Generate();
+            try
+            {
+                _yoProcessor.Generate();
+                //as soon as new project dialog 'go' clicked the wizard is invoked which does zero substitution & creates the NA1 folder & simultaneously opens the yo dialog. when user clicks 'ok' on my yo dialog we get here, and the yo.bat is run. whilst yo.bat is running async we continue to call Close() and can be all but certain the NA1 folder exists  
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
             Close();
         }
 
@@ -52,7 +62,15 @@ namespace CommonUi
         /// <param name="e"></param>
         protected override void OnClosing(CancelEventArgs e)
         {
-            _yoProcessor.ArchiveRegularProject(_dto.SolutionDirectory, _dto.TempDirectory);
+            try
+            {
+                _yoProcessor.ArchiveRegularProject(_dto.SolutionDirectory, _dto.TempDirectory);
+            }
+            catch (Exception ex)
+            {
+                // Most likely (although unlikely) is that the solution directory we're trying to archive doesn't yet exist, or not enough disc space
+                MessageBox.Show(ex.ToString());
+            }
         }
     }
 }

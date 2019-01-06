@@ -148,3 +148,28 @@ rem Open the last .csproj in "array" which is the .csproj file we just created (
 
 
 
+using (var process = Process.Start(processStartInfo))
+            {
+                //The following blocks the Visual Studio UI thread
+                //process.WaitForExit();
+            }
+
+            //process.WaitForInputIdle(1000);
+            //Wait for the process to exit or time out.
+            //process.WaitForExit(123456789);
+            //Check to see if the process is still running.
+            //if (process.HasExited == false)
+            //{
+            //    //Process is still running. Test to see if the process is hung up.
+            //    if (process.Responding)
+            //    {
+            //        //Process was responding; close the main window.
+            //        process.CloseMainWindow();
+            //    }
+            //    else
+            //    {
+            //        //Process was not responding; force the process to close.
+            //        process.Kill();
+            //    }
+            //}   
+            //MessageBox.Show("Code continuing...");
