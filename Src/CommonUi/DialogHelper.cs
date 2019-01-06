@@ -4,7 +4,7 @@ namespace CommonUi
 {
     public static class DialogHelper
     {
-        public static string Ok = "OK";
+        public static string Ok = "Okay";//gregt use this to define the button text 
 
         public static string GetLabelText(string solutionDirectory, string tempDirectory, string generatorName, string regularProjectName)
         {

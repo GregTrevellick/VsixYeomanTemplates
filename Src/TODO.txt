@@ -11,15 +11,16 @@ SIGNING
 
 TODOs
 =====
+gregt
 4. gif for angular-basic
 5. update latest screen shot logos (both)
 
 
 
 91. define category as 'template' not 'tool in vsmp website ***THINK THIS IS DONE, WAIT & SEE WHEN PUBLISHED***
-92. tags with semi-colon delimiter for all my vsixes
-93. PR for steve ardalis
 94. PR for matt/omni team
+93. PR for steve ardalis
+92. tags with semi-colon delimiter for all my vsixes
 95. readmesycnchronizer - codebeat doesnt support c# yet - exclude for vsixyeomantemplates
 96. check badges statuses (not badges themselves) e.g. PRs
 97. toucan https://github.com/mrellipse/toucan
