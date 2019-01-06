@@ -1,6 +1,6 @@
 [GitHubRepoPullRequestsURL]: https://github.com/GregTrevellick/VsixYeomanTemplates/pulls
 
-A basic [Angular.io](https://angular.io/) / [TypeScript](https://www.typescriptlang.org/) web application project template for [Visual Studio](https://visualstudio.microsoft.com/vs/) and [VS Code](https://code.visualstudio.com/), using [AspNet Core]([ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/)) (C#), [WebPack](https://webpack.js.org/), [Gulp](https://gulpjs.com/), [Sass](https://sass-lang.com/) and [Yarn](https://yarnpkg.com) (optional).
+A basic [Angular.io](https://angular.io/) / [TypeScript](https://www.typescriptlang.org/) web application project template for [Visual Studio](https://visualstudio.microsoft.com/vs/) and [VS Code](https://code.visualstudio.com/), using [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/) (C#), [WebPack](https://webpack.js.org/), [Gulp](https://gulpjs.com/), [Sass](https://sass-lang.com/) and [Yarn](https://yarnpkg.com) (optional).
 
 >##### Based on the [Angular Basic](https://github.com/MattJeanes/AngularBasic) project from [Matt Jeanes](https://mattjeanes.com/).
 
