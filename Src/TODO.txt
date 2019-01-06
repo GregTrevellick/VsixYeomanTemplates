@@ -11,9 +11,7 @@ SIGNING
 
 TODOs
 =====
-remove ajax as a category
 gregt
-screen1.png omni
 gif for angular-basic
 
 

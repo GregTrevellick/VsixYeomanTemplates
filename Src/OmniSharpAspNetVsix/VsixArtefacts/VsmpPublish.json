@@ -14,9 +14,9 @@
       "targetPath": "screen2.gif"
     }
   ],
-  "categories": [   
-    "ajax"
-   ],
+  "categories": [
+    "other templates"
+  ],
   "identity": {
     "internalName": "OmniSharpAspNetVsix"
   },
