@@ -33,7 +33,7 @@
   "overview": "VsmpReadMe.md", //vsmp page content
   "priceCategory": "free",
   "properties": {
-    "tags": [
+    "tags": [ //gregt
       "tag1",
       "tag2",
       "tag3" ]
