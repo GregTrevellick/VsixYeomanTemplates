@@ -30,7 +30,6 @@ namespace CommonUi
             HasMaximizeButton = true;
             HasMinimizeButton = true;
             ResizeMode = ResizeMode.CanResize;
-            //SetWindowIcon(this);
             SizeToContent = SizeToContent.WidthAndHeight;
             Title = _generatorName;
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
