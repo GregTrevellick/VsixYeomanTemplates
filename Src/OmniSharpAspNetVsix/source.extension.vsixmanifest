@@ -10,7 +10,7 @@
         <ReleaseNotes>https://github.com/GregTrevellick/VsixYeomanTemplate/blob/master/CHANGELOG.md</ReleaseNotes>
         <Icon>Resources\VsixExtensionPreview_90x90.png</Icon>
         <PreviewImage>Resources\VsixExtensionPreview_175x175.png</PreviewImage>
-        <Tags>aspnet, yeoman, generator, template, f#, omnisharp</Tags>
+        <Tags>aspnet; yeoman; generator; template; f#; omnisharp; aspnet core; mvc; webapi; nancy; mstest; xunit; bootstrap; semantic; net core;</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />
