@@ -50,13 +50,13 @@ namespace CommonUi
             Close();
         }
 
-        private void BtnCancel_OnClick(object sender, RoutedEventArgs e)//corner x to also do archgive
+        private void BtnCancel_OnClick(object sender, RoutedEventArgs e)
         {
             Close(); 
         }
 
         /// <summary>
-        /// Invoked by Close();
+        /// Invoked by Close(); (i.e Ok or Cancel clicked) or when top RH corner 'X' clicked
         /// </summary>
         /// <param name="e"></param>
         protected override void OnClosing(CancelEventArgs e)
