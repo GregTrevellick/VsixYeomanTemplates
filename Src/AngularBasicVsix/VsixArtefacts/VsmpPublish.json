@@ -24,14 +24,20 @@
     }
 
   ],
-  "categories": [   
+  "categories": [
     "ajax"
-   ],
+  ],
   "identity": {
     "internalName": "AngularBasicVsix"
   },
   "overview": "VsmpReadMe.md", //vsmp page content
   "priceCategory": "free",
+  "properties": {
+    "tags": [
+      "tag1",
+      "tag2",
+      "tag3" ]
+  },
   "publisher": "GregTrevellick",
   "private": true,
   "qna": true,

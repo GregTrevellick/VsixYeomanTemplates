@@ -125,7 +125,6 @@ rem Open the last .csproj in "array" which is the .csproj file we just created (
 
 
   <TemplateData>
-    <!--<ShowByDefault>false</ShowByDefault>--><!--true(default)=will be displayed for all project types. false=will only be displayed under the specified TemplateGroupID.-->
      <!--Omitting 'RequiredFrameworkVersion' avoids user being prompted for framework version nbr-->
     <!--<RequiredFrameworkVersion>2.1</RequiredFrameworkVersion> value must be integer, and this is valid, but results in user being prompted for framework version nbr-->
     <!--<RequiredFrameworkVersion>netcoreapp2.1</RequiredFrameworkVersion> 'netcoreapp2.1' is taken from 'netcoreapp2.1' in matt's csproj; value must be integer, and this is INvalid, but avoids user being prompted for framework version nbr-->
@@ -148,81 +147,4 @@ rem Open the last .csproj in "array" which is the .csproj file we just created (
 
 
 
-
-
-
-
-
-
-
-
-
-FOR ALL .VSTEMPLATES
-=====================
-
-in .vstemplate file - big image when adding new project
-    <PreviewImage>VsixExtensionPreview_200x200.png</PreviewImage>
-
-in .vstemplate file - categories that the template appears in
-    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
-    <ProjectSubType>Web</ProjectSubType>
-    <ProjectType>CSharp</ProjectType>
-
-f4 properties of the .vstemplate file
-    <OutputSubPath>Web</OutputSubPath>
-
-in vsmppublish.json - set tags
-  "properties": {
-    "tags": [
-      "tag1",
-      "tag2",
-      "tag3" ]
-  },
-
-in vsmppublish.json - set category
-    "categories": [
-		"scaffolding"
-		//http://json.schemastore.org/vsix-publish
-		//"ajax",
-		//"build",
-		//"coding",
-		//"connected services",
-		//"data",
-		//"database",
-		//"documentation",
-		//"extension sdk",
-		//"framework and libraries",
-		//"lightswitch",
-		//"lightswitch controls",
-		//"lightswitch templates",
-		//"modelling",
-		//"office",
-		//"other",
-		//"other templates",
-		//"performance",
-		//"process templates",
-		//"programming languages",
-		//"reporting",
-		//"scaffolding",
-		//"security",
-		//"services",
-		//"setup and deployment",
-		//"sharepoint",
-		//"sharepoint controls",
-		//"sharepoint templates",
-		//"silverlight controls",
-		//"source control",
-		//"start pages",
-		//"team development",
-		//"testing",
-		//"visual studio extensions",
-		//"wcf",
-		//"web",
-		//"windows forms templates",
-		//"windows forms controls",
-		//"workflow",
-		//"wpf templates",
-		//"wpf controls",
-		//"xna"
-	  ],
 

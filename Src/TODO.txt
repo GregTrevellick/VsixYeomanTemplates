@@ -29,7 +29,7 @@ e2e test (gregt)
 98. publish HelloWorldVsixProjectTemplateWizard example vsix
 99. NOT YET - make it work for vs2019
 
-DUNNO
+DUNNO	
 https://github.com/digipolisantwerp/generator-dgp-api-aspnetcore_yeoman
 https://github.com/digipolisantwerp/generator-dgp-web-aspnetcore_yeoman
 https://github.com/serghar/CANDYMAN
