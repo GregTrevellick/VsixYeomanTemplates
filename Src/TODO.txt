@@ -11,24 +11,24 @@ SIGNING
 
 TODOs
 =====
+e2e test (gregt)
 screen1.png omni
 gif for angular-basic
-e2e test (gregt)
 
 
 
 
-91. tags with semi-colon delimiter for all my vsixes
-92. define category as 'template' not 'tool in vsmp website ***THINK THIS IS DONE, WAIT & SEE WHEN PUBLISHED***
+91. define category as 'template' not 'tool in vsmp website ***THINK THIS IS DONE, WAIT & SEE WHEN PUBLISHED***
+92. tags with semi-colon delimiter for all my vsixes
 93. PR for steve ardalis
 94. PR for matt/omni team
 95. readmesycnchronizer - codebeat doesnt support c# yet - exclude for vsixyeomantemplates
-96. check badges statuses
+96. check badges statuses (not badges themselves) e.g. PRs
 97. toucan https://github.com/mrellipse/toucan
     Aa2.sln https://github.com/sgbj/generator-aspnetcore-angular2
     Vnc1.sln https://github.com/vue-typed/generator-vue-net-core
 98. publish HelloWorldVsixProjectTemplateWizard example vsix
-99. NOT YET - make it work for vs2019
+99. make it work for vs2019 (not yet, eventually in fullness of time)
 
 DUNNO	
 https://github.com/digipolisantwerp/generator-dgp-api-aspnetcore_yeoman
