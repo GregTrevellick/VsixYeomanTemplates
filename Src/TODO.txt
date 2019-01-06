@@ -12,8 +12,7 @@ SIGNING
 TODOs
 =====
 remove ajax as a category
-e2e test (gregt)
-gregt in .vstemplate files (custom parameters)
+gregt
 screen1.png omni
 gif for angular-basic
 
