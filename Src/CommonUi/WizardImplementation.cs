@@ -13,7 +13,7 @@ namespace VsixCommonWizard
         {
             try
             {
-                var generatorName = ConfigHelper.GetAppSetting(CommonUi.Constants.GeneratorNameKey);
+                replacementsDictionary.TryGetValue("$GeneratorName$", out string generatorName);
                 var popUpDialog = new PopUpDialog(generatorName, replacementsDictionary);
                 popUpDialog.Show();
             }

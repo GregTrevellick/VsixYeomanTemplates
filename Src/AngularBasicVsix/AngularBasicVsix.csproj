@@ -53,9 +53,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ConfigHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WizardImplementation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\..\LICENSE.txt">
@@ -79,9 +77,6 @@
     <Content Include="Resources\VsixExtensionPreview_90x90.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="App.config">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <None Include="Key.snk" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
@@ -102,7 +97,7 @@
       <Name>CommonIdeLauncher</Name>
     </ProjectReference>
     <ProjectReference Include="..\CommonUi\CommonUi.csproj">
-      <Project>{527575a6-03fe-43b3-bc7e-78d6a0fda0ae}</Project>
+      <Project>{527575A6-03FE-43B3-BC7E-78D6A0FDA0AE}</Project>
       <Name>CommonUi</Name>
       <IncludeOutputGroupsInVSIX>BuiltProjectOutputGroup%3bBuiltProjectOutputGroupDependencies%3bGetCopyToOutputDirectoryItems%3bSatelliteDllsProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
       <IncludeOutputGroupsInVSIXLocalOnly>DebugSymbolsProjectOutputGroup%3b</IncludeOutputGroupsInVSIXLocalOnly>
