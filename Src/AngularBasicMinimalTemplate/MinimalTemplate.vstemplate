@@ -16,17 +16,16 @@
     <TemplateID>32A69FEB-1F72-474D-9BB7-D3609CB30C98</TemplateID>
   </TemplateData>
   <TemplateContent>
-    <!--gregt
     <CustomParameters>
-      <CustomParameter Name="$language$" Value="CSharp" />
-      <CustomParameter Name="$uistyle$" Value="none"/>
-      <CustomParameter Name="$groupid$" Value="SideWafflev2.TemplatePackProject" />
-      <CustomParameter Name="SideWaffleNewProjNode" Value="CSharp\Extensibility\Gregt\SideWaffle"/>
+      <!--<CustomParameter Name="$language$" Value="CSharp" />-->
+      <!--<CustomParameter Name="$uistyle$" Value="none"/>-->
+      <!--<CustomParameter Name="$groupid$" Value="SideWafflev2.TemplatePackProject" />-->
+      <CustomParameter Name="$GeneratorName$" Value="angular-basic"/>
+      <CustomParameter Name="$GeneratorUrl$" Value="https://github.com/MattJeanes/AngularBasic"/>
     </CustomParameters>
-    -->
   </TemplateContent>
   <WizardExtension>  
-    <Assembly>AngularBasicVsix, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=aacac3c367c1bca2</Assembly>  
+    <Assembly>CommonUi, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=0507c28bc41369e2</Assembly>  
     <FullClassName>VsixCommonWizard.WizardImplementation</FullClassName>  
   </WizardExtension>  
 </VSTemplate>

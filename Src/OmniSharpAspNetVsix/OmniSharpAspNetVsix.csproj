@@ -53,9 +53,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ConfigHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WizardImplementation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\..\LICENSE.txt">
@@ -77,9 +75,6 @@
     <Content Include="Resources\VsixExtensionPreview_90x90.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="App.config">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <None Include="Key.snk" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
@@ -88,6 +83,12 @@
     <None Include="VsixArtefacts\VsmpReadMe.md" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CommonUi\CommonUi.csproj">
+      <Project>{527575A6-03FE-43B3-BC7E-78D6A0FDA0AE}</Project>
+      <Name>CommonUi</Name>
+      <IncludeOutputGroupsInVSIX>BuiltProjectOutputGroup%3bBuiltProjectOutputGroupDependencies%3bGetCopyToOutputDirectoryItems%3bSatelliteDllsProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+      <IncludeOutputGroupsInVSIXLocalOnly>DebugSymbolsProjectOutputGroup%3b</IncludeOutputGroupsInVSIXLocalOnly>
+    </ProjectReference>
     <ProjectReference Include="..\OmniSharpAspNetMinimalTemplate\OmniSharpAspNetMinimalTemplate.csproj">
       <Project>{D92D7F20-CA07-43F1-BDD5-D8AA44D6DC0A}</Project>
       <Name>OmniSharpAspNetMinimalTemplate</Name>
@@ -98,12 +99,6 @@
     <ProjectReference Include="..\CommonIdeLauncher\CommonIdeLauncher.csproj">
       <Project>{e94766fa-5a0f-4abb-b6ca-c456df0b3a7f}</Project>
       <Name>CommonIdeLauncher</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CommonUi\CommonUi.csproj">
-      <Project>{527575a6-03fe-43b3-bc7e-78d6a0fda0ae}</Project>
-      <Name>CommonUi</Name>
-      <IncludeOutputGroupsInVSIX>BuiltProjectOutputGroup%3bBuiltProjectOutputGroupDependencies%3bGetCopyToOutputDirectoryItems%3bSatelliteDllsProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
-      <IncludeOutputGroupsInVSIXLocalOnly>DebugSymbolsProjectOutputGroup%3b</IncludeOutputGroupsInVSIXLocalOnly>
     </ProjectReference>
     <ProjectReference Include="..\CommonYo\CommonYo.csproj">
       <Project>{80198d90-e379-43a1-abb5-36f7d9c509a7}</Project>
