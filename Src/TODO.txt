@@ -12,8 +12,8 @@ SIGNING
 TODOs
 =====
 gregt
-gif for angular-basic
-
+4. gif for angular-basic
+5. update latest screen shot logos (both)
 
 
 
