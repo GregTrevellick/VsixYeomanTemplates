@@ -143,33 +143,34 @@ rem Open the last .csproj in "array" which is the .csproj file we just created (
 
 
 
-
+ _yoProcessor.Generate();
+// As soon as new project dialog 'go' clicked the wizard is invoked which does zero substitution & creates the NA1 folder & simultaneously opens the yo dialog. when user clicks 'ok' on my yo dialog we get here, and the yo.bat is run. whilst yo.bat is running async we continue to call Close() and can be all but certain the NA1 folder exists  
 
 
 
 
 using (var process = Process.Start(processStartInfo))
-            {
-                //The following blocks the Visual Studio UI thread
-                //process.WaitForExit();
-            }
+{
+    //The following blocks the Visual Studio UI thread
+    //process.WaitForExit();
+}
 
-            //process.WaitForInputIdle(1000);
-            //Wait for the process to exit or time out.
-            //process.WaitForExit(123456789);
-            //Check to see if the process is still running.
-            //if (process.HasExited == false)
-            //{
-            //    //Process is still running. Test to see if the process is hung up.
-            //    if (process.Responding)
-            //    {
-            //        //Process was responding; close the main window.
-            //        process.CloseMainWindow();
-            //    }
-            //    else
-            //    {
-            //        //Process was not responding; force the process to close.
-            //        process.Kill();
-            //    }
-            //}   
-            //MessageBox.Show("Code continuing...");
+//process.WaitForInputIdle(1000);
+//Wait for the process to exit or time out.
+//process.WaitForExit(123456789);
+//Check to see if the process is still running.
+//if (process.HasExited == false)
+//{
+//    //Process is still running. Test to see if the process is hung up.
+//    if (process.Responding)
+//    {
+//        //Process was responding; close the main window.
+//        process.CloseMainWindow();
+//    }
+//    else
+//    {
+//        //Process was not responding; force the process to close.
+//        process.Kill();
+//    }
+//}   
+//MessageBox.Show("Code continuing...");

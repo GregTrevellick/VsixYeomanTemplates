@@ -41,7 +41,6 @@ namespace CommonUi
             try
             {
                 _yoProcessor.Generate();
-                //as soon as new project dialog 'go' clicked the wizard is invoked which does zero substitution & creates the NA1 folder & simultaneously opens the yo dialog. when user clicks 'ok' on my yo dialog we get here, and the yo.bat is run. whilst yo.bat is running async we continue to call Close() and can be all but certain the NA1 folder exists  
             }
             catch (Exception ex)
             {
