@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <!--<ShowByDefault>false</ShowByDefault>--><!--true(default)=will be displayed for all project types. false=will only be displayed under the specified TemplateGroupID.-->
-    <!--<TemplateGroupID>AspNetCore</TemplateGroupID>-->
     <DefaultName>NotApplicable</DefaultName>
     <Description>A collection of Yeoman scaffolded web / console/ class library / unit test projects using ASP.NET Core. Optionally also using MVC, WebAPI, Nancy, MS Test, Xunit, C#, F#, bootstrap, semantic.</Description>
     <EnableLocationBrowseButton>false</EnableLocationBrowseButton>
