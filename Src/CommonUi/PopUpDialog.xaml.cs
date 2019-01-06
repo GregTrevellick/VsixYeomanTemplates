@@ -38,8 +38,6 @@ namespace CommonUi
         private void BtnOkay_OnClick(object sender, RoutedEventArgs e)
         {
             _yoProcessor.Generate();
-            //gregt get this working async (i.e. dont close & delete regular til new Yo created)
-            //Task.Run(() => _yoProcessor.Generate()).GetAwaiter().GetResult();
             Close();
         }
 
