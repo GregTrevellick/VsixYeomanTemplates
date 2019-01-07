@@ -14,19 +14,20 @@ TODOs
 4. gif for angular-basic
 5. update latest screen shot logos (both)
 
-
-
+89. make dialog include courier-new font text
+90. hyperlink in dialog to matt/omni 
 91. define category as 'template' not 'tool in vsmp website ***THINK THIS IS DONE, WAIT & SEE WHEN PUBLISHED***
-94. PR for matt/omni team
+92. PR for matt/omni team
 93. PR for steve ardalis
-92. tags with semi-colon delimiter for all my vsixes
+94. tags with semi-colon delimiter for all my vsixes
 95. readmesycnchronizer - codebeat doesnt support c# yet - exclude for vsixyeomantemplates
 96. check badges statuses (not badges themselves) e.g. PRs
 97. toucan https://github.com/mrellipse/toucan
     Aa2.sln https://github.com/sgbj/generator-aspnetcore-angular2
     Vnc1.sln https://github.com/vue-typed/generator-vue-net-core
 98. publish HelloWorldVsixProjectTemplateWizard example vsix
-99. make it work for vs2019 (not yet, eventually in fullness of time)
+99. icon in dialog 
+100. make it work for vs2019 (not yet, eventually in fullness of time)
 
 DUNNO	
 https://github.com/digipolisantwerp/generator-dgp-api-aspnetcore_yeoman
