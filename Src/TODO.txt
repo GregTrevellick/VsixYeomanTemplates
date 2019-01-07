@@ -11,23 +11,27 @@ SIGNING
 
 TODOs
 =====
-
-
-
+96. check badges statuses (not badges themselves) e.g. PRs
+92. PR for matt/omni team
 89. make dialog include courier-new font text
 90. hyperlink in dialog to matt/omni 
-91. define category as 'template' not 'tool in vsmp website ***THINK THIS IS DONE, WAIT & SEE WHEN PUBLISHED***
-92. PR for matt/omni team
-93. PR for steve ardalis
-94. tags with semi-colon delimiter for all my vsixes
-95. readmesycnchronizer - codebeat doesnt support c# yet - exclude for vsixyeomantemplates
-96. check badges statuses (not badges themselves) e.g. PRs
+87. in dialog let user choose new folder path for yo project
+99. icon in dialog 
 97. toucan https://github.com/mrellipse/toucan
     Aa2.sln https://github.com/sgbj/generator-aspnetcore-angular2
     Vnc1.sln https://github.com/vue-typed/generator-vue-net-core
-98. publish HelloWorldVsixProjectTemplateWizard example vsix
-99. icon in dialog 
 100. make it work for vs2019 (not yet, eventually in fullness of time)
+
+
+
+OTHER
+=====
+88. changelog link in vs install dialog is wrong
+93. PR for steve ardalis
+94. tags with semi-colon delimiter for all my vsixes
+95. readmesycnchronizer - codebeat doesnt support c# yet - exclude for vsixyeomantemplates
+98. publish HelloWorldVsixProjectTemplateWizard example vsix
+
 
 DUNNO	
 https://github.com/digipolisantwerp/generator-dgp-api-aspnetcore_yeoman
