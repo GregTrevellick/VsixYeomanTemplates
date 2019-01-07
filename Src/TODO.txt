@@ -26,10 +26,11 @@ TODOs
 
 OTHER
 =====
-93. PR for steve ardalis
-94. tags with semi-colon delimiter for all my vsixes
-95. readmesycnchronizer - codebeat doesnt support c# yet - exclude for vsixyeomantemplates
-98. publish HelloWorldVsixProjectTemplateWizard example vsix
+PR for steve ardalis
+tags with semi-colon delimiter for all my vsixes
+readmesycnchronizer - codebeat doesnt support c# yet - exclude for vsixyeomantemplates
+publish HelloWorldVsixProjectTemplateWizard example vsix
+
 
 
 DUNNO	
