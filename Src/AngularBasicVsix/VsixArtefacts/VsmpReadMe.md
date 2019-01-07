@@ -17,13 +17,13 @@ When you create a new project...
 ...a command prompt is opened to scaffold the new project using Yeoman...
  
  - Node will install the [Angular Basic Yeoman generator](https://github.com/MattJeanes/AngularBasic) via command `npm install -g yo angular-basic`
- - Yeoman will prompt you for personalisation and custom options for the new project (red border) via command `yo angular-basic`
- - Yeoman will create the new project on your machine (purple border)
+ - Yeoman will prompt you for personalisation and custom options for the new project via command `yo angular-basic`
+ - Yeoman will create the new project on your machine
  - Yeoman will automatically download any dependancies (e.g. into `node_modules` folder)
 
-![](screen2.png)
+![](screen2.gif)
 
-...the new project will be opened in a new instance of Visual Studio, and here's what you get...
+...the new project will be opened in a new instance of Visual Studio (or your default .csproj app), and here's what you get...
 
 ![](screen3.png)
 

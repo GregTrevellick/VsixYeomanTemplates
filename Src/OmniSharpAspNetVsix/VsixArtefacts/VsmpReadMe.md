@@ -23,7 +23,7 @@ When you create a new project...
 
 ![](screen2.gif)
 
-...the new project will be opened in a new instance of Visual Studio.
+...the new project will be opened in a new instance of Visual Studio (or your default .csproj app).
 
 > Note: A Visual Studio solution file (`.Sln`) is not created when the project is scaffolded. However when you close Visual Studio you will be prompted to create and save a solution file.
 
