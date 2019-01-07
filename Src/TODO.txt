@@ -12,7 +12,8 @@ SIGNING
 TODOs
 =====
 4. gif for angular-basic
-5. update latest screen shot logos (both)
+
+
 
 89. make dialog include courier-new font text
 90. hyperlink in dialog to matt/omni 
