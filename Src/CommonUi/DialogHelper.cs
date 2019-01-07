@@ -4,12 +4,12 @@ namespace CommonUi
 {
     public static class DialogHelper
     {
-        public static string Ok = "Okay";//gregt use this to define the button text 
+        public static string Okay = "Okay";
 
         public static string GetLabelText(string solutionDirectory, string tempDirectory, string generatorName, string regularProjectName)
         {
             return
-                $"Click {Ok} to perform the following:{Environment.NewLine}" +
+                $"Click {Okay} to perform the following:{Environment.NewLine}" +
                 $"{Environment.NewLine}" +
                 $" - Create empty project '{regularProjectName}' at '{solutionDirectory}'{Environment.NewLine}" +
                 $"{Environment.NewLine}" +

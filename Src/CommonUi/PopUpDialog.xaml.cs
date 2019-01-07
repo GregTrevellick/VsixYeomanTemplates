@@ -13,7 +13,7 @@ namespace CommonUi
         private string _generatorName;
         private YoProcessor _yoProcessor;
         private FileSystemDto _dto;
-
+       
         public PopUpDialog(string generatorName, Dictionary<string, string> replacementsDictionary)
         {
             _generatorName = generatorName;
@@ -27,6 +27,7 @@ namespace CommonUi
         private void InitializePopUpDialog()
         {
             AppTextBlock.Text = DialogHelper.GetLabelText(_dto.SolutionDirectory, _dto.TempDirectory, _generatorName, _dto.RegularProjectName);
+            BtnOkay.Content = DialogHelper.Okay;
             BtnOkay.Focus();
             HasMaximizeButton = true;
             HasMinimizeButton = true;
