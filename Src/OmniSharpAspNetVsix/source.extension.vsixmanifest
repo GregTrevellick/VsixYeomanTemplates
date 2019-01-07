@@ -4,10 +4,10 @@
         <Identity Id="6cd71704-2276-486d-a126-690a2250cd0c" Version="1.0.1" Language="en-US" Publisher="Greg Trevellick" />
         <DisplayName>OmniSharp AspNet Project Template</DisplayName>
         <Description xml:space="preserve">A collection of Yeoman scaffolded web / console/ class library / unit test projects using ASP.NET Core. Optionally also using MVC, WebAPI, Nancy, MS Test, Xunit, C#, F#, bootstrap, semantic.</Description>
-        <MoreInfo>https://github.com/GregTrevellick/VsixYeomanTemplate</MoreInfo>
+        <MoreInfo>https://github.com/GregTrevellick/VsixYeomanTemplates</MoreInfo>
         <License>LICENSE.txt</License>
         <GettingStartedGuide>https://github.com/omnisharp/generator-aspnet</GettingStartedGuide>
-        <ReleaseNotes>https://github.com/GregTrevellick/VsixYeomanTemplate/blob/master/CHANGELOG.md</ReleaseNotes>
+        <ReleaseNotes>https://github.com/GregTrevellick/VsixYeomanTemplates/blob/master/CHANGELOG.md</ReleaseNotes>
         <Icon>Resources\VsixExtensionPreview_90x90.png</Icon>
         <PreviewImage>Resources\VsixExtensionPreview_175x175.png</PreviewImage>
         <Tags>AspNet; Yeoman; Generator; Template; F#; OmniSharp; MVC; WebAPI; Nancy; MSTest; MS Test; XUnit; Bootstrap; Semantic; AspNet Core; Asp.Net Core; .NetCore; NetCore; DotNetCore;</Tags>
