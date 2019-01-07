@@ -11,6 +11,7 @@ SIGNING
 
 TODOs
 =====
+vsmp not got link to github
 80. PR for matt
 81. PR for omni team
 82. toucan https://github.com/mrellipse/toucan
@@ -26,9 +27,7 @@ TODOs
 
 OTHER
 =====
-PR for steve ardalis
 tags with semi-colon delimiter for all my vsixes
-readmesycnchronizer - codebeat doesnt support c# yet - exclude for vsixyeomantemplates
 publish HelloWorldVsixProjectTemplateWizard example vsix
 
 
