@@ -11,16 +11,16 @@ SIGNING
 
 TODOs
 =====
-96. check badges statuses (not badges themselves) e.g. PRs
-92. PR for matt/omni team
-89. make dialog include courier-new font text
-90. hyperlink in dialog to matt/omni 
-87. in dialog let user choose new folder path for yo project
-99. icon in dialog 
-97. toucan https://github.com/mrellipse/toucan
+80. PR for matt
+81. PR for omni team
+82. toucan https://github.com/mrellipse/toucan
     Aa2.sln https://github.com/sgbj/generator-aspnetcore-angular2
     Vnc1.sln https://github.com/vue-typed/generator-vue-net-core
-100. make it work for vs2019 (not yet, eventually in fullness of time)
+90. make dialog include courier-new font text
+91. hyperlink in dialog to matt/omni 
+92. in dialog let user choose new folder path for yo project
+93. icon in dialog 
+94. make it work for vs2019 (not yet, eventually in fullness of time)
 
 
 
