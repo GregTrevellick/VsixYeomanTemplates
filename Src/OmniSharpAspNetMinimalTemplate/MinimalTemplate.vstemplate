@@ -17,9 +17,7 @@
   </TemplateData>
   <TemplateContent>
     <CustomParameters>
-      <!--<CustomParameter Name="$language$" Value="CSharp" />-->
-      <!--<CustomParameter Name="$uistyle$" Value="none"/>-->
-      <!--<CustomParameter Name="$groupid$" Value="SideWafflev2.TemplatePackProject" />-->
+      <CustomParameter Name="$ExtensionName$" Value="OmniSharp AspNet"/>
       <CustomParameter Name="$GeneratorName$" Value="aspnet"/>
       <CustomParameter Name="$GeneratorUrl$" Value="https://github.com/omnisharp/generator-aspnet"/>
     </CustomParameters>

@@ -13,8 +13,9 @@ namespace VsixCommonWizard
         {
             try
             {
+                replacementsDictionary.TryGetValue("$ExtensionName$", out string extensionName);
                 replacementsDictionary.TryGetValue("$GeneratorName$", out string generatorName);
-                var popUpDialog = new PopUpDialog(generatorName, replacementsDictionary);
+                var popUpDialog = new PopUpDialog(extensionName, generatorName, replacementsDictionary);
                 popUpDialog.Show();
             }
             catch (Exception ex)

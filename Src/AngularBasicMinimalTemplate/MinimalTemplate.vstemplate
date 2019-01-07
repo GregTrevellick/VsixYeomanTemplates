@@ -17,9 +17,7 @@
   </TemplateData>
   <TemplateContent>
     <CustomParameters>
-      <!--<CustomParameter Name="$language$" Value="CSharp" />-->
-      <!--<CustomParameter Name="$uistyle$" Value="none"/>-->
-      <!--<CustomParameter Name="$groupid$" Value="SideWafflev2.TemplatePackProject" />-->
+      <CustomParameter Name="$ExtensionName$" Value="Angular Basic"/>
       <CustomParameter Name="$GeneratorName$" Value="angular-basic"/>
       <CustomParameter Name="$GeneratorUrl$" Value="https://github.com/MattJeanes/AngularBasic"/>
     </CustomParameters>

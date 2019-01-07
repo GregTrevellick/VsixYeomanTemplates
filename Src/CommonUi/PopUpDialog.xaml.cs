@@ -10,12 +10,14 @@ namespace CommonUi
 {
     public partial class PopUpDialog : DialogWindow
     {
+        private string _extensionName;
         private string _generatorName;
         private YoProcessor _yoProcessor;
         private FileSystemDto _dto;
        
-        public PopUpDialog(string generatorName, Dictionary<string, string> replacementsDictionary)
+        public PopUpDialog(string extensionName, string generatorName, Dictionary<string, string> replacementsDictionary)
         {
+            _extensionName = extensionName;
             _generatorName = generatorName;
             _yoProcessor = new YoProcessor(_generatorName);
             _dto = _yoProcessor.Initialise(replacementsDictionary);
@@ -33,7 +35,7 @@ namespace CommonUi
             HasMinimizeButton = true;
             ResizeMode = ResizeMode.CanResize;
             SizeToContent = SizeToContent.WidthAndHeight;
-            Title = _generatorName;
+            Title = _extensionName;
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
         }
 
