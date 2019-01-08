@@ -14,8 +14,6 @@ TODOs
 publish matt
 PR for matt
 
-publish HelloWorldVsixProjectTemplateWizard example vsix
-
 83. toucan https://github.com/mrellipse/toucan
     Aa2.sln https://github.com/sgbj/generator-aspnetcore-angular2
     Vnc1.sln https://github.com/vue-typed/generator-vue-net-core
