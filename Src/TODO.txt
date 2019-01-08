@@ -11,11 +11,10 @@ SIGNING
 
 TODOs
 =====
-vsmp not got link to github
-79. tweet to omni
-80. PR for matt
-81. PR for omni team
-82. toucan https://github.com/mrellipse/toucan
+80. tweet to omni
+81. PR for matt
+82. PR for omni team
+83. toucan https://github.com/mrellipse/toucan
     Aa2.sln https://github.com/sgbj/generator-aspnetcore-angular2
     Vnc1.sln https://github.com/vue-typed/generator-vue-net-core
 90. make dialog include courier-new font text
