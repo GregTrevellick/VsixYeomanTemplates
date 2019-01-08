@@ -11,9 +11,8 @@ SIGNING
 
 TODOs
 =====
-80. tweet to omni
-81. PR for matt
-82. PR for omni team
+81. publish matt
+82. PR for matt
 83. toucan https://github.com/mrellipse/toucan
     Aa2.sln https://github.com/sgbj/generator-aspnetcore-angular2
     Vnc1.sln https://github.com/vue-typed/generator-vue-net-core
@@ -24,12 +23,7 @@ TODOs
 94. make it work for vs2019 (not yet, eventually in fullness of time)
 
 
-
-OTHER
-=====
-tags with semi-colon delimiter for all my vsixes - see .vsixmanifest files
 publish HelloWorldVsixProjectTemplateWizard example vsix
-
 
 
 DUNNO	
