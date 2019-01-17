@@ -15,7 +15,7 @@ call yo %arg1YoApp%
 REM OPEN VISUAL STUDIO 
 cd %arg3AssemblyDirectory%
 CommonIdeLauncher.exe %arg2RegularProjDir%
-::pause
+pause
 
 REM Check for error (e.g. yo command not installed, npm not exists)
 IF %ERRORLEVEL% NEQ 0 GOTO ProcessError
