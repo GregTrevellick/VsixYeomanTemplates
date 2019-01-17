@@ -33,7 +33,9 @@ When you create a new project...
 
 > Note: A Visual Studio solution file (`.Sln`) is not created when the project is scaffolded. However when you close Visual Studio you will be prompted to create and save a solution file.
 
-If you like this **free** extension please take just a few seconds to give it a rating.
+### If you like this free extension please take just a few seconds to give it a rating.
+
+>##### Additional Yeoman templates can be installed using [this](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.NewYeomanProject) extension.
 
 Contributions welcome [here][GitHubRepoPullRequestsURL].
 
