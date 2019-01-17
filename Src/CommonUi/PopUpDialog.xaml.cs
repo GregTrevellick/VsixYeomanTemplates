@@ -43,11 +43,14 @@ namespace CommonUi
         {
             try
             {
-                _yoProcessor.Generate();
+                using (_yoProcessor)
+                {
+                    _yoProcessor.Generate();
+                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString());
+                _yoProcessor.ShowMessageBoxError($"{_yoProcessor.ProjectNotCreated}{_yoProcessor.LineBreak}{ex.ToString()}.");
             }
 
             Close();
