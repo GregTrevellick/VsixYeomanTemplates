@@ -10,3 +10,7 @@ Individual releases are tagged as such in GitHub.
 **2019-01-07**
 - [x] Initial release
 
+## 1.0.2
+**2019-01-17**
+- [x] Improve stability and error handling
+
