@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="6cd71704-2276-486d-a126-690a2250cd0c" Version="1.0.3" Language="en-US" Publisher="Greg Trevellick" />
+        <Identity Id="6cd71704-2276-486d-a126-690a2250cd0c" Version="1.0.5" Language="en-US" Publisher="Greg Trevellick" />
         <DisplayName>OmniSharp AspNet Project Template</DisplayName>
         <Description xml:space="preserve">A collection of Yeoman scaffolded web / console/ class library / unit test projects using ASP.NET Core. Optionally also using MVC, WebAPI, Nancy, MS Test, Xunit, C#, F#, bootstrap, semantic.</Description>
         <MoreInfo>https://github.com/GregTrevellick/VsixYeomanTemplates</MoreInfo>
@@ -13,8 +13,7 @@
         <Tags>AspNet; Yeoman; Generator; Template; F#; OmniSharp; MVC; WebAPI; Nancy; MSTest; MS Test; XUnit; Bootstrap; Semantic; AspNet Core; Asp.Net Core; .NetCore; NetCore; DotNetCore;</Tags>
     </Metadata>
     <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />
-        <!--<InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[15.0,17.0)" />-->
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 17.0)" />
     </Installation>
     <Dependencies>
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
@@ -26,6 +25,6 @@
         <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="CommonUi" Path="|CommonUi|" AssemblyName="|CommonUi;AssemblyName|" />
     </Assets>
     <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
 </PackageManifest>
