@@ -41,10 +41,10 @@
 [![Visual Studio Marketplace version](https://vsmarketplacebadge.apphb.com/version/GregTrevellick.VsixAngularBasic.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.VsixAngularBasic)
 
 
-[![Visual Studio Marketplace version](https://img.shields.io/badge/-OmniSharpAspNet-%23e2165e.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OmniSharpAspNet)
-[![Visual Studio Marketplace downloads](https://vsmarketplacebadge.apphb.com/installs/GregTrevellick.OmniSharpAspNet.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OmniSharpAspNet)
-[![Visual Studio Marketplace ratings](https://vsmarketplacebadge.apphb.com/rating/GregTrevellick.OmniSharpAspNet.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OmniSharpAspNet)
-[![Visual Studio Marketplace version](https://vsmarketplacebadge.apphb.com/version/GregTrevellick.OmniSharpAspNet.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OmniSharpAspNet)
+[![Visual Studio Marketplace version](https://img.shields.io/badge/-OmniSharpAspNetVsix-%23e2165e.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OmniSharpAspNetVsix)
+[![Visual Studio Marketplace downloads](https://vsmarketplacebadge.apphb.com/installs/GregTrevellick.OmniSharpAspNetVsix.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OmniSharpAspNetVsix)
+[![Visual Studio Marketplace ratings](https://vsmarketplacebadge.apphb.com/rating/GregTrevellick.OmniSharpAspNetVsix.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OmniSharpAspNetVsix)
+[![Visual Studio Marketplace version](https://vsmarketplacebadge.apphb.com/version/GregTrevellick.OmniSharpAspNetVsix.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OmniSharpAspNetVsix)
 
 
 
