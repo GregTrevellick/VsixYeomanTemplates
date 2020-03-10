@@ -35,10 +35,10 @@
 [![License](https://img.shields.io/github/license/gittools/gitlink.svg)](/LICENSE.txt)
 [![Subscribe](https://img.shields.io/badge/subscribe%20to%20receive%20notificatons-grey.svg)](https://github.com/GregTrevellick/VsixYeomanTemplates/subscription)
 
-[![Visual Studio Marketplace version](https://img.shields.io/badge/-VsixAngularBasic-%23e2165e.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.VsixAngularBasic)
-[![Visual Studio Marketplace downloads](https://vsmarketplacebadge.apphb.com/installs/GregTrevellick.VsixAngularBasic.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.VsixAngularBasic)
-[![Visual Studio Marketplace ratings](https://vsmarketplacebadge.apphb.com/rating/GregTrevellick.VsixAngularBasic.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.VsixAngularBasic)
-[![Visual Studio Marketplace version](https://vsmarketplacebadge.apphb.com/version/GregTrevellick.VsixAngularBasic.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.VsixAngularBasic)
+[![Visual Studio Marketplace version](https://img.shields.io/badge/-AngularBasicVsix-%23e2165e.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.AngularBasicVsix)
+[![Visual Studio Marketplace downloads](https://vsmarketplacebadge.apphb.com/installs/GregTrevellick.AngularBasicVsix.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.AngularBasicVsix)
+[![Visual Studio Marketplace ratings](https://vsmarketplacebadge.apphb.com/rating/GregTrevellick.AngularBasicVsix.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.AngularBasicVsix)
+[![Visual Studio Marketplace version](https://vsmarketplacebadge.apphb.com/version/GregTrevellick.AngularBasicVsix.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.AngularBasicVsix)
 
 
 [![Visual Studio Marketplace version](https://img.shields.io/badge/-OmniSharpAspNetVsix-%23e2165e.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OmniSharpAspNetVsix)
