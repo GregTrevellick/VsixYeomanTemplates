@@ -5,11 +5,8 @@
 [![Read Me Synchronizer](https://img.shields.io/badge/-powered%20by%20ReadMeSynchronizer-brightgreen.svg)](https://github.com/GregTrevellick/ReadMeSynchronizer)
 [![BetterCodeHub compliance](https://bettercodehub.com/edge/badge/GregTrevellick/VsixYeomanTemplates?branch=master)](https://bettercodehub.com/results/GregTrevellick/VsixYeomanTemplates)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e61c4dba8261497fb447379730e97a25)](https://www.codacy.com/project/gtrevellick/VsixYeomanTemplates/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GregTrevellick/VsixYeomanTemplates&amp;utm_campaign=Badge_Grade_Dashboard)
-<!-- no md -->
-[![CodeFactor](https://www.codefactor.io/repository/github/GregTrevellick/VsixYeomanTemplates/badge)](https://www.codefactor.io/repository/github/GregTrevellick/VsixYeomanTemplates)
-<!-- no md -->
-<!-- no md -->
-[![LGTM Alerts](https://img.shields.io/lgtm/alerts/g/GregTrevellick/VsixYeomanTemplates.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/VsixYeomanTemplates/alerts/)
+ [![CodeFactor](https://www.codefactor.io/repository/github/GregTrevellick/VsixYeomanTemplates/badge)](https://www.codefactor.io/repository/github/GregTrevellick/VsixYeomanTemplates)
+  [![LGTM Alerts](https://img.shields.io/lgtm/alerts/g/GregTrevellick/VsixYeomanTemplates.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/VsixYeomanTemplates/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/GregTrevellick/VsixYeomanTemplates.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/VsixYeomanTemplates/context:javascript)
 [![GitHub top language](https://img.shields.io/github/languages/top/GregTrevellick/VsixYeomanTemplates.svg)](https://github.com/GregTrevellick/VsixYeomanTemplates)
 [![Github language count](https://img.shields.io/github/languages/count/GregTrevellick/VsixYeomanTemplates.svg)](https://github.com/GregTrevellick/VsixYeomanTemplates)
@@ -28,16 +25,14 @@
 [![Sonar&metric=vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=GregTrevellick_VsixYeomanTemplates&metric=vulnerabilities)](https://sonarcloud.io/component_measures?id=GregTrevellick_VsixYeomanTemplates&metric=vulnerabilities)
 [![Appveyor Build status](https://ci.appveyor.com/api/projects/status/am8i6aama94x7yma?svg=true)](https://ci.appveyor.com/project/GregTrevellick/VsixYeomanTemplates)
 [![Appveyor unit tests](https://img.shields.io/appveyor/tests/GregTrevellick/VsixYeomanTemplates.svg)](https://ci.appveyor.com/project/GregTrevellick/VsixYeomanTemplates/build/tests)
-<!-- no md -->
-[![Hound](https://img.shields.io/badge/hound_ci-checked-brightgreen.svg)](https://houndci.com/)
+ [![Hound](https://img.shields.io/badge/hound_ci-checked-brightgreen.svg)](https://houndci.com/)
 [![Access Lint github](https://img.shields.io/badge/a11y-checked-brightgreen.svg)](https://www.accesslint.com)
 [![ImgBot](https://img.shields.io/badge/images-optimized-brightgreen.svg)](https://imgbot.net/)
 [![Renovate Bot github](https://img.shields.io/badge/renovatebot-checked-brightgreen.svg)](https://renovatebot.com/)
 [![Charity Ware](https://img.shields.io/badge/charity%20ware-thank%20you-brightgreen.svg)](https://github.com/GregTrevellick/MiscellaneousArtefacts/wiki/Charity-Ware)
 [![License](https://img.shields.io/github/license/gittools/gitlink.svg)](/LICENSE.txt)
 [![Subscribe](https://img.shields.io/badge/subscribe%20to%20receive%20notificatons-grey.svg)](https://github.com/GregTrevellick/VsixYeomanTemplates/subscription)
-<!-- no md -->
-
+ 
 [![Visual Studio Marketplace version](https://img.shields.io/badge/-AngularBasicVsix-%23e2165e.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.AngularBasicVsix)
 [![Visual Studio Marketplace downloads](https://vsmarketplacebadge.apphb.com/installs/GregTrevellick.AngularBasicVsix.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.AngularBasicVsix)
 [![Visual Studio Marketplace ratings](https://vsmarketplacebadge.apphb.com/rating/GregTrevellick.AngularBasicVsix.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.AngularBasicVsix)
