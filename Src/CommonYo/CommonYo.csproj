@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Shell.15.0" Version="16.4.29519.181" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.15.0" Version="16.7.30329.88" />
   </ItemGroup>
 
   <ItemGroup>
